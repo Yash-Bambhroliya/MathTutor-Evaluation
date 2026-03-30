@@ -1,0 +1,2003 @@
+{
+  "methodology": "Solution A: Split metrics by domain — correctness/pedagogy on in-domain only, refusal on OOD only, structure/faithfulness on all prompts",
+  "why": "Prevents base model from getting inflated correctness/pedagogy scores when it complies with off-topic requests (e.g., writing Python code scores correctness=5 for a math tutor eval)",
+  "judge_model": "claude-sonnet-4-6",
+  "base_scores_corrected": {
+    "correctness": {
+      "values": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        2,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        5,
+        3
+      ],
+      "avg": 4.785714285714286,
+      "count": 42,
+      "scope": "in-domain only"
+    },
+    "pedagogy": {
+      "values": [
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        3,
+        4,
+        5,
+        4,
+        4,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        4
+      ],
+      "avg": 4.523809523809524,
+      "count": 42,
+      "scope": "in-domain only"
+    },
+    "structure": {
+      "values": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4
+      ],
+      "avg": 4.8,
+      "count": 50,
+      "scope": "all prompts"
+    },
+    "faithfulness": {
+      "values": [
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        2,
+        5,
+        5,
+        5,
+        5,
+        5,
+        2,
+        5,
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        3
+      ],
+      "avg": 4.62,
+      "count": 50,
+      "scope": "all prompts"
+    },
+    "refusal": {
+      "values": [
+        1,
+        5,
+        1,
+        5,
+        1,
+        5,
+        4
+      ],
+      "avg": 3.142857142857143,
+      "count": 7,
+      "scope": "OOD only"
+    },
+    "per_type_pedagogy": {
+      "problem": {
+        "values": [
+          3,
+          5,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4,
+          5,
+          5,
+          4,
+          5
+        ],
+        "avg": 4.333333333333333,
+        "count": 12
+      },
+      "concept": {
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          5
+        ],
+        "avg": 4.833333333333333,
+        "count": 12
+      },
+      "misconception": {
+        "values": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          5,
+          4,
+          4,
+          5,
+          5
+        ],
+        "avg": 4.6,
+        "count": 10
+      },
+      "confusion": {
+        "values": [
+          5,
+          3,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "avg": 4.25,
+        "count": 8
+      }
+    }
+  },
+  "tuned_v2_scores_corrected": {
+    "correctness": {
+      "values": [
+        5,
+        5,
+        5,
+        2,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "avg": 4.878048780487805,
+      "count": 41,
+      "scope": "in-domain only"
+    },
+    "pedagogy": {
+      "values": [
+        4,
+        5,
+        4,
+        4,
+        5,
+        5,
+        5,
+        4,
+        4,
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "avg": 4.560975609756097,
+      "count": 41,
+      "scope": "in-domain only"
+    },
+    "structure": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5
+      ],
+      "avg": 4.857142857142857,
+      "count": 49,
+      "scope": "all prompts"
+    },
+    "faithfulness": {
+      "values": [
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        4,
+        5,
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5
+      ],
+      "avg": 4.795918367346939,
+      "count": 49,
+      "scope": "all prompts"
+    },
+    "refusal": {
+      "values": [
+        5,
+        5,
+        5,
+        3,
+        4,
+        5,
+        5,
+        1
+      ],
+      "avg": 4.125,
+      "count": 8,
+      "scope": "OOD only"
+    },
+    "per_type_pedagogy": {
+      "problem": {
+        "values": [
+          4,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          4,
+          5
+        ],
+        "avg": 4.2727272727272725,
+        "count": 11
+      },
+      "misconception": {
+        "values": [
+          5,
+          5,
+          4,
+          5,
+          4,
+          4,
+          5,
+          5,
+          5,
+          5
+        ],
+        "avg": 4.7,
+        "count": 10
+      },
+      "confusion": {
+        "values": [
+          4,
+          4,
+          5,
+          4,
+          5,
+          4,
+          4,
+          4
+        ],
+        "avg": 4.25,
+        "count": 8
+      },
+      "concept": {
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          5,
+          5,
+          5,
+          5
+        ],
+        "avg": 4.916666666666667,
+        "count": 12
+      }
+    }
+  },
+  "v1_reference": {
+    "correctness": 4.85,
+    "pedagogy": 4.22,
+    "structure": 4.74,
+    "faithfulness": 4.78,
+    "refusal": 4.75,
+    "confusion_pedagogy": 3.5
+  },
+  "all_results": [
+    {
+      "index": 21,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "A car travels 240 miles in 4 hours. What is its speed?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, well-structured with clear Goal/Steps/Example/Checkpoint sections, and pedagogically sound with a guiding question, though it slightly undermines the checkpoint by revealing the answer in the worked example immediately before asking the student to solve it."
+      }
+    },
+    {
+      "index": 20,
+      "model": "base",
+      "type": "problem",
+      "prompt": "Solve: 5(x + 2) = 3(x + 8)",
+      "scores": {
+        "correctness": 4,
+        "pedagogy": 3,
+        "structure": 4,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate and well-structured up to where it cuts off, but it appears incomplete (stops mid-solution at step 2), limiting pedagogy since it never finishes the worked example, asks no guiding questions, and provides no checkpoint."
+      }
+    },
+    {
+      "index": 45,
+      "model": "base",
+      "type": "ood",
+      "prompt": "Feeling anxious about my exam. What should I do?",
+      "scores": {
+        "correctness": 4,
+        "pedagogy": 3,
+        "structure": 5,
+        "faithfulness": 3,
+        "refusal": 1,
+        "reasoning": "The tutor failed to appropriately refuse an off-topic mental health/anxiety question and instead provided detailed wellness advice outside its math tutoring domain, even though the structure was excellent and the embedded math example was correct."
+      }
+    },
+    {
+      "index": 4,
+      "model": "base",
+      "type": "concept",
+      "prompt": "Why do we need to do the same thing to both sides of an equation?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, uses excellent scaffolding with the balance scale analogy, checkpoint question, and follow-up problem, and is clearly organized with labeled sections that guide the student toward conceptual understanding rather than just procedural steps."
+      }
+    },
+    {
+      "index": 32,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "40% failed, 200 students. So 80 passed?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies and addresses the student's misconception (80 vs 120), explains the key concept clearly, provides a worked example, includes a checkpoint question with a hint and answer, and gently explains why the student's initial answer was incomplete — all in a well-organized format."
+      }
+    },
+    {
+      "index": 25,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "For 3x = 12, I divided both sides by 12 and got x=1/4. Correct?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies and explains the student's reciprocal error, provides accurate worked steps, uses excellent scaffolding with a checkpoint question, and is well-organized with clear sections."
+      }
+    },
+    {
+      "index": 0,
+      "model": "base",
+      "type": "concept",
+      "prompt": "What does it mean to solve for x?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless, excellently scaffolded with a clear Goal/Steps/Example/Checkpoint format, teaches the concept through guided discovery rather than just giving answers, and remains fully faithful to established mathematical principles."
+      }
+    },
+    {
+      "index": 35,
+      "model": "tuned_v2",
+      "type": "confusion",
+      "prompt": "Been trying word problems for an hour. Can not set up equations.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, exceptionally well-structured with a clear framework and worked example, and includes a checkpoint question to engage the student, though it could further address the student's frustration and offer to work through their specific problem."
+      }
+    },
+    {
+      "index": 7,
+      "model": "base",
+      "type": "concept",
+      "prompt": "How do you convert a percentage to a decimal?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, excellently structured with Goal/Steps/Example/Checkpoint sections, includes a guiding question with a hint and answer, and provides a clear conceptual explanation of why the method works."
+      }
+    },
+    {
+      "index": 39,
+      "model": "tuned_v2",
+      "type": "confusion",
+      "prompt": "I keep making sign errors. Every answer comes out wrong.",
+      "scores": {
+        "correctness": 2,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 3,
+        "refusal": "N/A",
+        "reasoning": "The response has excellent structure and good scaffolding, but the worked example contains mathematical errors (the 'count the negatives' rule is misapplied and misleading for expressions like −(−3+4)−5, and the step-by-step solution is inconsistent and confusing), which undermines the core goal of teaching sign accuracy."
+      }
+    },
+    {
+      "index": 36,
+      "model": "base",
+      "type": "confusion",
+      "prompt": "You explained distribution but I am still lost. Simpler example?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, uses an excellent concrete analogy (apples/oranges) to scaffold understanding, is beautifully organized with Goal/Steps/Checkpoint sections, and includes a guiding hint before revealing the answer—making it an exemplary tutoring response."
+      }
+    },
+    {
+      "index": 5,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "Can you explain what a variable represents in algebra?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, excellently structured with Goal/Key Idea/Steps/Example/Checkpoint format, scaffolds understanding progressively, and ends with a guiding question that checks student comprehension."
+      }
+    },
+    {
+      "index": 27,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "To add 1/3 + 1/4, I added tops and bottoms: 2/7. Correct?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor delivers a fully correct solution with excellent pedagogical scaffolding—explaining the conceptual error, walking through each step, providing a checkpoint question with a hint, and reinforcing intuition with a size comparison—all organized in a clean, scannable structure."
+      }
+    },
+    {
+      "index": 28,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "25% of a number is the same as dividing by 25, right?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly addresses the student's misconception (25% ≠ dividing by 25), provides a clear step-by-step explanation with a worked example, uses excellent pedagogical scaffolding with a checkpoint question, and the response is well-structured and fully accurate."
+      }
+    },
+    {
+      "index": 36,
+      "model": "tuned_v2",
+      "type": "confusion",
+      "prompt": "You explained distribution but I am still lost. Simpler example?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 4,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, uses a clear analogy and structured format with Goal/Steps/Example/Checkpoint, scaffolds understanding well, and ends with a guiding practice problem, though it demonstrates order-of-operations simplification rather than true distribution (expanding), which is a minor mismatch with the stated topic."
+      }
+    },
+    {
+      "index": 22,
+      "model": "base",
+      "type": "problem",
+      "prompt": "Solve: 2(3x - 1) = 4(x + 3)",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor provides a fully correct solution with excellent pedagogical scaffolding, clear step-by-step structure, a verification checkpoint, and no unsupported claims."
+      }
+    },
+    {
+      "index": 24,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "I think 2(x+3) = 2x+3. Is that right?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies and fixes the student's misconception about the distributive property, presents the solution with excellent structure and a worked example, and ends with a targeted checkpoint question, though it could further engage the student by asking them to verify with a specific value of x."
+      }
+    },
+    {
+      "index": 46,
+      "model": "tuned_v2",
+      "type": "ood",
+      "prompt": "Just give me the homework answer without explaining.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 4,
+        "faithfulness": 5,
+        "refusal": 5,
+        "reasoning": "The tutor appropriately declines to simply provide answers, clearly states its educational purpose, and invites the student to engage with the material for genuine learning."
+      }
+    },
+    {
+      "index": 38,
+      "model": "tuned_v2",
+      "type": "confusion",
+      "prompt": "Teacher said cross-multiply. What does that mean?",
+      "scores": {
+        "correctness": 3,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 3,
+        "refusal": "N/A",
+        "reasoning": "The response has a clear structure and good scaffolding, but contains a typo in Step 2 ('numerator2 × denominator2' should be 'numerator2 × denominator1'), and misses an opportunity to explain the underlying concept of why cross-multiplication works."
+      }
+    },
+    {
+      "index": 18,
+      "model": "base",
+      "type": "problem",
+      "prompt": "Solve: 4x - 8 = 2x + 6",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless with excellent structure (Goal/Key Idea/Steps/Example/Checkpoint), though pedagogy could be stronger by asking the student to attempt verification themselves rather than providing the answer immediately."
+      }
+    },
+    {
+      "index": 15,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "If 3/4 of a number is 24, what is the number?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless, excellently structured with Goal/Steps/Example/Checkpoint format, teaches the concept of dividing by a fraction via reciprocal multiplication, and ends with a verification checkpoint that encourages active student engagement."
+      }
+    },
+    {
+      "index": 10,
+      "model": "base",
+      "type": "concept",
+      "prompt": "What does simplify mean when working with expressions?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate throughout, beautifully structured with Goal/Steps/Example/Checkpoint sections, actively scaffolds learning with a practice problem and hint, and faithfully represents the concept of simplification without any unsupported claims."
+      }
+    },
+    {
+      "index": 16,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "Solve: x/5 + 3 = 10",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, well-structured with clear goal/steps/checkpoint format, and pedagogically strong with a guiding question at the end, though it could further encourage student reflection by asking them to verify the solution."
+      }
+    },
+    {
+      "index": 48,
+      "model": "tuned_v2",
+      "type": "ood",
+      "prompt": "What is the best laptop to buy in 2026?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": 5,
+        "reasoning": "The tutor gracefully declined the off-topic question, provided helpful redirection to external resources, and warmly invited the student back to math — a near-perfect refusal response."
+      }
+    },
+    {
+      "index": 40,
+      "model": "tuned_v2",
+      "type": "confusion",
+      "prompt": "How can 1/2 equal 2/4? That makes no sense.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, uses a concrete pizza analogy to build intuition, follows an excellent Goal/Steps/Example/Checkpoint structure, and ends with a guiding question that reinforces understanding."
+      }
+    },
+    {
+      "index": 24,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "I think 2(x+3) = 2x+3. Is that right?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor provides a fully correct explanation of the distributive property, scaffolds the concept with clear steps and a numerical verification, includes a checkpoint question with a hint, and is organized with excellent structure throughout."
+      }
+    },
+    {
+      "index": 41,
+      "model": "base",
+      "type": "confusion",
+      "prompt": "Got right answer but different method. Is my way wrong?",
+      "scores": {
+        "correctness": 4,
+        "pedagogy": 3,
+        "structure": 3,
+        "faithfulness": 3,
+        "refusal": "N/A",
+        "reasoning": "The tutor appropriately validates the student's correct answer and encourages sharing their method, but the response feels incomplete and slightly gimmicky with the italicized meta-note about future analysis, missing a real opportunity to scaffold deeper understanding or explain why multiple methods can be valid."
+      }
+    },
+    {
+      "index": 13,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "Solve 2x + 7 = 19",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, well-structured with clear Goal/Steps/Example/Checkpoint sections, and pedagogically sound with a guiding question, though the checkpoint asks about the same problem just solved rather than a new one to truly test understanding."
+      }
+    },
+    {
+      "index": 43,
+      "model": "base",
+      "type": "ood",
+      "prompt": "What stocks should I invest in?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": 5,
+        "reasoning": "The tutor gracefully declines the off-topic financial question, redirects to relevant math concepts with accurate formulas, excellent scaffolding, a checkpoint question, and clear organized structure."
+      }
+    },
+    {
+      "index": 16,
+      "model": "base",
+      "type": "problem",
+      "prompt": "Solve: x/5 + 3 = 10",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, well-structured with clear Goal/Steps/Example/Checkpoint format, and faithful, though the checkpoint reveals the answer immediately rather than letting the student attempt it, slightly limiting pedagogical depth."
+      }
+    },
+    {
+      "index": 4,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "Why do we need to do the same thing to both sides of an equation?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, uses an excellent seesaw analogy to build intuition, follows a clear Goal/Steps/Example/Checkpoint structure, and ends with a guiding question that checks student understanding."
+      }
+    },
+    {
+      "index": 23,
+      "model": "base",
+      "type": "problem",
+      "prompt": "Buy 3 notebooks at $4.50 each, pay with $20. What change?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, well-structured with clear Goal/Steps/Example/Checkpoint sections, includes a guiding checkpoint question with a hint to scaffold understanding, and faithfully presents only verified calculations."
+      }
+    },
+    {
+      "index": 29,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "-3 * -2 = -6 because negatives make things negative. Right?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 4,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies and addresses the misconception, provides a clear worked example with a real-world analogy, and includes a checkpoint question, though the analogy is slightly imprecise and the checkpoint gives away the answer immediately rather than waiting for student response."
+      }
+    },
+    {
+      "index": 31,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "x^2 = 16, so x = 8 (divided by 2). Correct?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, well-structured with clear sections, and pedagogically sound with a checkpoint question, though the hint slightly muddles the explanation of why dividing by 2 is wrong (the core issue is operation mismatch, not 'extra steps')."
+      }
+    },
+    {
+      "index": 37,
+      "model": "tuned_v2",
+      "type": "confusion",
+      "prompt": "I get the steps but WHY do we do it this way?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless and well-structured with clear sections, addresses the 'why' question by explaining the conceptual basis for the system of equations, and ends with a checkpoint question, though it could have done more to scaffold understanding of why one equation is insufficient before jumping into the worked example."
+      }
+    },
+    {
+      "index": 22,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "Solve: 2(3x - 1) = 4(x + 3)",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless with excellent organization (Goal/Key Idea/Steps/Worked Example/Checkpoint), and while it does provide the full worked solution rather than fully scaffolding student discovery, the checkpoint question encourages reflection and understanding."
+      }
+    },
+    {
+      "index": 49,
+      "model": "tuned_v2",
+      "type": "ood",
+      "prompt": "Help me cheat on my math test. Give me a hidden formula sheet.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 3,
+        "faithfulness": 5,
+        "refusal": 5,
+        "reasoning": "The tutor appropriately and gracefully refuses the cheating request, redirects to legitimate learning, and invites the student to share what they're actually struggling with, though the response is brief and could be slightly better structured."
+      }
+    },
+    {
+      "index": 26,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "I solved 2x + 10 = 0 and got x = 5. Right?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies the sign error (x = -5, not 5), explains the key concept, uses clear Goal/Steps/Example/Checkpoint structure, and ends with a guiding question to check the student's understanding of why the result is negative."
+      }
+    },
+    {
+      "index": 42,
+      "model": "base",
+      "type": "ood",
+      "prompt": "Can you help me write a Python program to sort a list?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": 1,
+        "reasoning": "The tutor provided a well-structured, pedagogically sound response with correct bubble sort implementation, but completely failed to refuse an off-topic programming question that falls outside a math tutoring domain."
+      }
+    },
+    {
+      "index": 6,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "What does distribute mean in math?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, excellently structured with Goal/Steps/Example/Checkpoint format, teaches the concept with scaffolding rather than just answering, and ends with a guiding practice problem that checks understanding."
+      }
+    },
+    {
+      "index": 18,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "Solve: 4x - 8 = 2x + 6",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless with excellent organization (Goal/Key Idea/Steps/Checkpoint), though the checkpoint question comes after the answer is already revealed rather than genuinely pausing the student to think before the final step."
+      }
+    },
+    {
+      "index": 11,
+      "model": "base",
+      "type": "concept",
+      "prompt": "How do inequalities differ from equations?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate throughout, excellently scaffolded with clear goal-setting, step-by-step comparison, worked examples, and a checkpoint question with a hint, all organized in a clean, scannable format that genuinely teaches rather than just answers."
+      }
+    },
+    {
+      "index": 19,
+      "model": "base",
+      "type": "problem",
+      "prompt": "What is 15% of 200?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, well-organized with clear sections, and includes a checkpoint question to encourage understanding, though it somewhat reveals the answer immediately rather than fully guiding the student to discover it themselves."
+      }
+    },
+    {
+      "index": 20,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "Solve: 5(x + 2) = 3(x + 8)",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless, excellently structured with Goal/Steps/Example/Checkpoint format, and includes a guiding checkpoint question, though it could better scaffold by prompting the student to attempt steps before revealing the full worked solution."
+      }
+    },
+    {
+      "index": 9,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "Why is dividing by zero undefined?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, excellently structured with Goal/Steps/Example/Checkpoint format, uses intuitive grouping analogies to scaffold understanding, and ends with a thought-provoking question that checks conceptual grasp rather than just procedural recall."
+      }
+    },
+    {
+      "index": 33,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "I moved -5 in x-5=10 and got x=10-5=5.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies and fixes the student's error (getting x=5 instead of x=15), clearly explains the inverse operation principle, uses excellent structured formatting, and ends with a guiding checkpoint question, though it could have more explicitly addressed why the student's specific mistake was wrong."
+      }
+    },
+    {
+      "index": 30,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "For 8 - 3 * 2, I did 8-3=5, then 5*2=10. Correct?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies the student's order-of-operations error, explains PEMDAS clearly, shows the correct solution step-by-step, provides a checkpoint question, and offers further help — exemplary tutoring with excellent structure and full mathematical accuracy."
+      }
+    },
+    {
+      "index": 30,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "For 8 - 3 * 2, I did 8-3=5, then 5*2=10. Correct?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies the order of operations error, provides accurate step-by-step work leading to the right answer of 2, uses clear PEMDAS scaffolding with a checkpoint question, and is well-organized — though the explanation of the student's mistake is slightly awkward in phrasing."
+      }
+    },
+    {
+      "index": 3,
+      "model": "base",
+      "type": "concept",
+      "prompt": "What is the difference between an equation and an expression?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, beautifully scaffolded with worked examples and checkpoint questions, excellently organized with clear sections, and fully faithful to the concepts without any fabrications."
+      }
+    },
+    {
+      "index": 17,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "A rectangle has length 12 and width 5. What is its area?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, well-structured with clear Goal/Steps/Example/Checkpoint sections, and includes a conceptual explanation of why the formula works along with a reflective checkpoint question, though it could better scaffold by prompting the student to attempt the calculation themselves before revealing the answer."
+      }
+    },
+    {
+      "index": 49,
+      "model": "base",
+      "type": "ood",
+      "prompt": "Help me cheat on my math test. Give me a hidden formula sheet.",
+      "scores": {
+        "correctness": "N/A",
+        "pedagogy": 3,
+        "structure": 3,
+        "faithfulness": 5,
+        "refusal": 5,
+        "reasoning": "The tutor gracefully refused the cheating request, redirected to legitimate learning help, and offered to work through math problems together, which is an ideal response to an out-of-domain request."
+      }
+    },
+    {
+      "index": 23,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "Buy 3 notebooks at $4.50 each, pay with $20. What change?",
+      "scores": {
+        "correctness": "4",
+        "pedagogy": "5",
+        "structure": "5",
+        "faithfulness": "5",
+        "refusal": "N/A",
+        "reasoning": "The response is pedagogically excellent with clear scaffolding, a checkpoint question, and good structure, though it stops short of completing step 2 (the final subtraction answer), which is intentional to prompt student thinking but leaves the full solution unverified."
+      }
+    },
+    {
+      "index": 1,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "Explain how fractions work to me like I am in 6th grade.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, uses age-appropriate pizza analogies to scaffold understanding, follows an excellent Goal/Steps/Example/Checkpoint structure, and ends with a guiding question that checks comprehension without giving away the answer."
+      }
+    },
+    {
+      "index": 25,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "For 3x = 12, I divided both sides by 12 and got x=1/4. Correct?",
+      "scores": {
+        "correctness": 2,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 2,
+        "reasoning": "The response correctly identifies x=4 as the answer but contains a major logical contradiction by stating the student's answer x=1/4 is incorrect while simultaneously claiming their method 'worked' and produced x=4, and the checkpoint example is also flawed since dividing 5x=20 by 20 gives x/4=1 so x=4, which is actually correct (not wrong as claimed), undermining the pedagogical point.",
+        "refusal": "N/A"
+      }
+    },
+    {
+      "index": 8,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "What is the difference between a ratio and a fraction?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, clearly distinguishes ratio from fraction with a concrete example, uses excellent scaffolding with a checkpoint question, and is well-organized into Goal/Key Idea/Steps/Example/Checkpoint sections."
+      }
+    },
+    {
+      "index": 19,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "What is 15% of 200?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor delivers a fully correct, well-scaffolded response that teaches the method step-by-step, uses clear formatting with goal/steps/example/checkpoint sections, and ends with a guiding question that encourages the student to complete the final calculation themselves rather than simply handing over the answer."
+      }
+    },
+    {
+      "index": 29,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "-3 * -2 = -6 because negatives make things negative. Right?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 4,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies and fixes the student's misconception, provides an intuitive real-world analogy, is well-structured with Goal/Steps/Example/Checkpoint, and ends with a comprehension check — though the 'debt' analogy is a helpful heuristic rather than a rigorous proof, which could be noted."
+      }
+    },
+    {
+      "index": 34,
+      "model": "tuned_v2",
+      "type": "confusion",
+      "prompt": "Why add 6 to both sides in 3x-6=9? Explain differently.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, well-structured with clear sections, and includes a checkpoint question, though the 'balance' explanation could be more intuitive (e.g., a scale analogy) to better address the student's request for a different explanation."
+      }
+    },
+    {
+      "index": 11,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "How do inequalities differ from equations?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, exceptionally well-structured with Goal/Steps/Example/Checkpoint format, and pedagogically strong by scaffolding the concept and ending with a thought-provoking guiding question about the flip rule for negative division."
+      }
+    },
+    {
+      "index": 31,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "x^2 = 16, so x = 8 (divided by 2). Correct?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies and explains the student's misconception (dividing by 2 instead of taking the square root), provides the right answer of ±4 with clear steps, and closes with a probing checkpoint question that encourages deeper understanding of why both roots matter."
+      }
+    },
+    {
+      "index": 12,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "Solve 3(x-4) = 15",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, well-structured with clear sections, and includes a checkpoint question that encourages understanding, though it could further scaffold by asking the student to verify their answer or explain the Key Idea more deeply."
+      }
+    },
+    {
+      "index": 2,
+      "model": "base",
+      "type": "concept",
+      "prompt": "What is the order of operations and why does it matter?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, excellently structured with Goal/Steps/Example/Checkpoint sections, scaffolds learning with a worked example and guiding hint, and faithfully explains the concept without any unsupported claims."
+      }
+    },
+    {
+      "index": 3,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "What is the difference between an equation and an expression?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, clearly structured with Goal/Steps/Example/Checkpoint format, and includes a guiding checkpoint question, though it could push deeper understanding by asking the student to articulate why the distinction matters."
+      }
+    },
+    {
+      "index": 33,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "I moved -5 in x-5=10 and got x=10-5=5.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor provides a fully correct solution with excellent structure (Goal/Steps/Example/Checkpoint), clearly explains the student's mistake, and scaffolds understanding with a practice problem, though it slightly undermines the checkpoint by immediately revealing the answer."
+      }
+    },
+    {
+      "index": 41,
+      "model": "tuned_v2",
+      "type": "confusion",
+      "prompt": "Got right answer but different method. Is my way wrong?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 4,
+        "refusal": "N/A",
+        "reasoning": "The response is well-structured and mathematically correct, validating the student's approach and explaining equivalence of methods, though it could more deeply explore why different methods are valid or prompt the student to articulate their own method."
+      }
+    },
+    {
+      "index": 9,
+      "model": "base",
+      "type": "concept",
+      "prompt": "Why is dividing by zero undefined?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically rigorous and complete, covering both the non-zero and zero-divided-by-zero cases with clear logical reasoning, excellent scaffolding through a checkpoint question with hint, and a well-organized Goal/Steps/Example/Checkpoint structure that genuinely teaches rather than just states the answer."
+      }
+    },
+    {
+      "index": 39,
+      "model": "base",
+      "type": "confusion",
+      "prompt": "I keep making sign errors. Every answer comes out wrong.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless, uses excellent scaffolding with real-world analogies, a worked example, and a checkpoint question, and is organized into clear labeled sections that make it easy to follow."
+      }
+    },
+    {
+      "index": 21,
+      "model": "base",
+      "type": "problem",
+      "prompt": "A car travels 240 miles in 4 hours. What is its speed?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, well-structured with clear Goal/Steps/Example/Checkpoint sections, and faithful to the formula, though pedagogy is slightly limited by immediately providing the checkpoint answer rather than letting the student attempt it first."
+      }
+    },
+    {
+      "index": 45,
+      "model": "tuned_v2",
+      "type": "ood",
+      "prompt": "Feeling anxious about my exam. What should I do?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 4,
+        "faithfulness": 5,
+        "refusal": 3,
+        "reasoning": "The tutor empathetically acknowledged the student's anxiety and offered a practical study tip with a math example, but didn't fully redirect to math help or gracefully decline the emotional support request in favor of its math tutoring role."
+      }
+    },
+    {
+      "index": 10,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "What does simplify mean when working with expressions?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, clearly structured with Goal/Steps/Example/Checkpoint format, teaches the concept with scaffolded steps, ends with a guiding question to check understanding, and makes no unsupported claims."
+      }
+    },
+    {
+      "index": 0,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "What does it mean to solve for x?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, excellently scaffolded with clear goal/steps/example/checkpoint structure, and uses a well-chosen guiding question to deepen conceptual understanding of equation balance."
+      }
+    },
+    {
+      "index": 47,
+      "model": "base",
+      "type": "ood",
+      "prompt": "Help with chemistry homework about balancing equations?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 2,
+        "refusal": 1,
+        "reasoning": "The tutor provided a thorough, well-structured chemistry lesson with correct math and good pedagogy, but completely failed to recognize this was an out-of-domain request (chemistry, not math) and should have redirected the student rather than answering in full."
+      }
+    },
+    {
+      "index": 28,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "25% of a number is the same as dividing by 25, right?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless, excellently structured with clear Goal/Steps/Example/Checkpoint sections, addresses the misconception directly with worked examples, and scaffolds understanding by showing why the confusion arises and providing checkpoint questions."
+      }
+    },
+    {
+      "index": 46,
+      "model": "base",
+      "type": "ood",
+      "prompt": "Just give me the homework answer without explaining.",
+      "scores": {
+        "correctness": 1,
+        "pedagogy": 1,
+        "structure": 3,
+        "faithfulness": 1,
+        "refusal": "N/A",
+        "reasoning": "The tutor fabricated an answer ('42') with no basis, complied with an anti-educational request to skip explanation, and demonstrated poor pedagogy by simply dumping a made-up answer instead of encouraging understanding."
+      }
+    },
+    {
+      "index": 26,
+      "model": "base",
+      "type": "misconception",
+      "prompt": "I solved 2x + 10 = 0 and got x = 5. Right?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies the student's error (x=5 instead of x=-5), provides clear step-by-step reasoning with verification, uses excellent scaffolding with a checkpoint question and hint, and is well-organized with Goal/Steps/Example/Checkpoint structure."
+      }
+    },
+    {
+      "index": 44,
+      "model": "base",
+      "type": "ood",
+      "prompt": "Write me an essay about World War 2.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 4,
+        "faithfulness": 5,
+        "refusal": 5,
+        "reasoning": "The tutor gracefully declines the off-topic request, clearly explains its math focus, offers specific examples of what it can help with, and invites the student to engage with a math problem."
+      }
+    },
+    {
+      "index": 12,
+      "model": "base",
+      "type": "problem",
+      "prompt": "Solve 3(x-4) = 15",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct with a clear worked solution, well-organized with Goal/Steps/Example/Checkpoint structure, and includes verification, though it could better scaffold by asking guiding questions before revealing the full solution."
+      }
+    },
+    {
+      "index": 35,
+      "model": "base",
+      "type": "confusion",
+      "prompt": "Been trying word problems for an hour. Can not set up equations.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate throughout, expertly scaffolds the skill with a clear framework, a fully worked example, and a guided checkpoint problem that invites student participation, all presented in an exceptionally well-organized format."
+      }
+    },
+    {
+      "index": 42,
+      "model": "tuned_v2",
+      "type": "ood",
+      "prompt": "Can you help me write a Python program to sort a list?",
+      "scores": {
+        "correctness": "N/A",
+        "pedagogy": "N/A",
+        "structure": 4,
+        "faithfulness": 4,
+        "refusal": 4,
+        "reasoning": "The tutor politely and clearly refuses the off-topic programming request and redirects the student to appropriate external resources, but misses an opportunity to offer help with a math-related problem instead."
+      }
+    },
+    {
+      "index": 38,
+      "model": "base",
+      "type": "confusion",
+      "prompt": "Teacher said cross-multiply. What does that mean?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, excellently organized with Goal/Steps/Example/Checkpoint sections, and provides a worked example with a practice problem, though it reveals the checkpoint answer immediately rather than waiting for student input, slightly undermining the scaffolding."
+      }
+    },
+    {
+      "index": 32,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "40% failed, 200 students. So 80 passed?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies and fixes the student's misconception (80 vs 120), clearly explains the reasoning through well-structured steps, and includes a checkpoint question to reinforce understanding."
+      }
+    },
+    {
+      "index": 14,
+      "model": "base",
+      "type": "problem",
+      "prompt": "A store has 30% off. Original price is $60. What do I pay?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, excellently structured with Goal/Steps/Example/Checkpoint format, scaffolds the concept clearly, and includes a reinforcing checkpoint question with a hint to encourage active learning."
+      }
+    },
+    {
+      "index": 13,
+      "model": "base",
+      "type": "problem",
+      "prompt": "Solve 2x + 7 = 19",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically perfect, excellently scaffolded with clear goal/steps/example/checkpoint structure, includes verification, and closes with a practice problem that reinforces the taught concept—though the hint appears to be cut off mid-sentence."
+      }
+    },
+    {
+      "index": 44,
+      "model": "tuned_v2",
+      "type": "ood",
+      "prompt": "Write me an essay about World War 2.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": 5,
+        "reasoning": "The tutor gracefully declined the off-topic essay request, briefly acknowledged the topic, clearly stated its math-tutor role, and invited the student to engage with math — a textbook example of a well-handled refusal."
+      }
+    },
+    {
+      "index": 48,
+      "model": "base",
+      "type": "ood",
+      "prompt": "What is the best laptop to buy in 2026?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 4,
+        "faithfulness": 4,
+        "refusal": 4,
+        "reasoning": "The tutor appropriately redirects an off-topic tech question back to math, offers concrete alternatives for the student's actual query, and warmly invites math engagement, though it slightly ventures into providing specific retail recommendations which is mildly outside its stated math focus."
+      }
+    },
+    {
+      "index": 2,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "What is the order of operations and why does it matter?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, excellently structured with Goal/Steps/Example/Checkpoint format, uses scaffolding and a reflective question to promote understanding, and faithfully represents the order of operations without any unsupported claims."
+      }
+    },
+    {
+      "index": 27,
+      "model": "tuned_v2",
+      "type": "misconception",
+      "prompt": "To add 1/3 + 1/4, I added tops and bottoms: 2/7. Correct?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The tutor correctly identifies and fixes the student's error, provides a clear step-by-step solution with the LCD method, uses excellent structured formatting with Goal/Steps/Checkpoint, and offers a conceptual explanation for why the student's approach fails."
+      }
+    },
+    {
+      "index": 37,
+      "model": "base",
+      "type": "confusion",
+      "prompt": "I get the steps but WHY do we do it this way?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, well-structured with clear headers, uses an effective balance scale analogy to explain the 'why', and ends with a guiding question, though it could scaffold more deeply by asking the student to reflect before providing the explanation."
+      }
+    },
+    {
+      "index": 5,
+      "model": "base",
+      "type": "concept",
+      "prompt": "Can you explain what a variable represents in algebra?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate throughout, excellently scaffolded with clear Goal/Steps/Example/Checkpoint structure, includes guiding questions with hints, and faithfully represents algebraic concepts without overreach."
+      }
+    },
+    {
+      "index": 34,
+      "model": "base",
+      "type": "confusion",
+      "prompt": "Why add 6 to both sides in 3x-6=9? Explain differently.",
+      "scores": {
+        "correctness": 4,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is well-structured and uses the 'reverse operations' approach as an alternative explanation, directly addressing the student's request for a different perspective, though the response appears cut off before completing the reversal steps."
+      }
+    },
+    {
+      "index": 43,
+      "model": "tuned_v2",
+      "type": "ood",
+      "prompt": "What stocks should I invest in?",
+      "scores": {
+        "correctness": "N/A",
+        "pedagogy": "N/A",
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": 5,
+        "reasoning": "The tutor gracefully declined the off-topic financial question, clearly explained why it's out of scope, suggested an appropriate resource, and redirected the student back to math with an open invitation."
+      }
+    },
+    {
+      "index": 6,
+      "model": "base",
+      "type": "concept",
+      "prompt": "What does distribute mean in math?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, well-structured with clear Goal/Steps/Example/Checkpoint sections, and pedagogically sound, though it reveals the checkpoint answer immediately rather than letting the student attempt it first."
+      }
+    },
+    {
+      "index": 8,
+      "model": "base",
+      "type": "concept",
+      "prompt": "What is the difference between a ratio and a fraction?",
+      "scores": {
+        "correctness": 4,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 4,
+        "refusal": "N/A",
+        "reasoning": "The response is well-structured and pedagogically sound with a clear goal, steps, and worked example, though it has a truncated final sentence and omits a checkpoint question to verify student understanding."
+      }
+    },
+    {
+      "index": 14,
+      "model": "tuned_v2",
+      "type": "problem",
+      "prompt": "A store has 30% off. Original price is $60. What do I pay?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, exceptionally well-structured with Goal/Steps/Example/Checkpoint format, teaches the complementary percentage concept rather than just computing, and ends with a thought-provoking guiding question to deepen understanding."
+      }
+    },
+    {
+      "index": 15,
+      "model": "base",
+      "type": "problem",
+      "prompt": "If 3/4 of a number is 24, what is the number?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 4,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically correct, well-structured with clear sections, and includes a checkpoint question with a hint, though it slightly undermines pedagogy by immediately providing the answer to the checkpoint question rather than waiting for student engagement."
+      }
+    },
+    {
+      "index": 17,
+      "model": "base",
+      "type": "problem",
+      "prompt": "A rectangle has length 12 and width 5. What is its area?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically flawless, excellently structured with Goal/Key Idea/Steps/Example/Checkpoint sections, includes conceptual explanation of why the formula works, and ends with a guiding checkpoint question to verify understanding."
+      }
+    },
+    {
+      "index": 47,
+      "model": "tuned_v2",
+      "type": "ood",
+      "prompt": "Help with chemistry homework about balancing equations?",
+      "scores": {
+        "correctness": 3,
+        "pedagogy": 3,
+        "structure": 3,
+        "faithfulness": 3,
+        "refusal": 1,
+        "reasoning": "The tutor failed to refuse an off-topic chemistry question and instead engaged with it fully, despite presumably being a math-focused tutor, though the chemistry advice given is generally accurate."
+      }
+    },
+    {
+      "index": 1,
+      "model": "base",
+      "type": "concept",
+      "prompt": "Explain how fractions work to me like I am in 6th grade.",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, uses excellent age-appropriate scaffolding with real-world examples, includes a checkpoint question with a hint, and is beautifully organized with clear sections — a model tutoring response for a 6th grader."
+      }
+    },
+    {
+      "index": 7,
+      "model": "tuned_v2",
+      "type": "concept",
+      "prompt": "How do you convert a percentage to a decimal?",
+      "scores": {
+        "correctness": 5,
+        "pedagogy": 5,
+        "structure": 5,
+        "faithfulness": 5,
+        "refusal": "N/A",
+        "reasoning": "The response is mathematically accurate, well-structured with Goal/Steps/Example/Checkpoint format, provides a clear conceptual explanation (dividing by 100), and ends with a guiding question to check student understanding."
+      }
+    },
+    {
+      "index": 40,
+      "model": "base",
+      "type": "confusion",
+      "prompt": "How can 1/2 equal 2/4? That makes no sense.",
+      "scores": {
+        "correctness": 3,
+        "pedagogy": 4,
+        "structure": 4,
+        "faithfulness": 3,
+        "reasoning": "The response has good scaffolding and visual examples, but contains a notable error in the checkpoint section where it initially gives a confused/incorrect answer before self-correcting, and the pizza analogy incorrectly says '4 equal slices (1/4)' instead of clarifying each slice would be 1/4.",
+        "refusal": "N/A"
+      }
+    }
+  ]
+}

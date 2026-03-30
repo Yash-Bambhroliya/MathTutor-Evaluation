@@ -1,0 +1,402 @@
+[
+  {
+    "prompt": "What does it mean to solve for x?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand what \"solving for x\" means in an algebraic equation.\n\n**Key Idea:** Solving for x means isolating x on one side of the equation so you can find its numerical value.\n\n**Steps:**\n1. **Write the equation down** \u2014 this tells you what relationship exists between numbers and x.\n2. **Undo operations** \u2014 do the opposite of what's being done to x (e.g., if x is multiplied by 2, divide both sides by 2).\n3. **Simplify** \u2014 combine like terms until x is alone on one side.\n4. **Answer** \u2014 the number next to x is its value!\n\n**Worked Example:**\nEquation: 2x + 5 = 11\n- Step 1: 2x + 5 = 11\n- Step 2: 2x = 11 - 5 = 6 (undo the +5)\n- Step 3: x = 6 \u00f7 2 = 3 (undo the \u00d72)\n\n**Checkpoint:** In the equation x + 3 = 7, what should you do first to get x by itself?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand what \"solving for x\" means in an algebraic equation.\n\n**Key Idea:** Solving for x means isolating x on one side of the equation so you can find its numerical value.\n\n**Steps:**\n1. **Write the equation down** \u2014 this tells you what relationship exists between numbers and x.\n2. **Undo operations** \u2014 do the opposite of what's being done to x (e.g., if x is multiplied by 2, divide both sides by 2).\n3. **Simplify** \u2014 combine like terms until x is alone on one side.\n4. **Answer** \u2014 the number next to x is its value!\n\n**Worked Example:**\nEquation: 2x + 5 = 11\n- Step 1: 2x + 5 = 11\n- Step 2: 2x = 11 - 5 = 6 (undo the +5)\n- Step 3: x = 6 \u00f7 2 = 3 (undo the \u00d72)\n\n**Checkpoint:** In the equation x + 3 = 7, what should you do first to get x by itself?"
+  },
+  {
+    "prompt": "Explain how fractions work to me like I am in 6th grade.",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand what a fraction means.\n\n**Key Idea:** A fraction is like a pizza slice. The bottom number (denominator) says how many equal pieces the whole pizza is cut into, and the top number (numerator) says how many slices you have.\n\n**Steps:**\n1. Imagine a pizza cut into 8 equal slices \u2014 that's your denominator (8).\n2. If you take 3 slices, you have 3/8 of the pizza \u2014 that's your numerator (3).\n3. So 3/8 means \"3 out of 8 equal parts.\"\n\n**Checkpoint:** If a pizza is cut into 6 slices and you eat 2, what fraction of the pizza have you eaten?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand what a fraction means.\n\n**Key Idea:** A fraction is like a pizza slice. The bottom number (denominator) says how many equal pieces the whole pizza is cut into, and the top number (numerator) says how many slices you have.\n\n**Steps:**\n1. Imagine a pizza cut into 8 equal slices \u2014 that's your denominator (8).\n2. If you take 3 slices, you have 3/8 of the pizza \u2014 that's your numerator (3).\n3. So 3/8 means \"3 out of 8 equal parts.\"\n\n**Checkpoint:** If a pizza is cut into 6 slices and you eat 2, what fraction of the pizza have you eaten?"
+  },
+  {
+    "prompt": "What is the order of operations and why does it matter?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand the order of operations and why it's important for getting the correct answer.\n\n**Key Idea:** Order of operations gives a universal rule for evaluating math expressions so everyone gets the same result \u2014 it prevents different people from interpreting an expression differently.\n\n**Steps:**\n1. **P**arentheses \u2014 do everything inside parentheses first\n2. **E**xponents \u2014 handle powers or roots next\n3. **M**ultiplication and **D**ivision \u2014 work left to right\n4. **A**ddition and **S**ubtraction \u2014 work left to right\n\n**Worked Example:**  \nEvaluate: 3 + 4 \u00d7 2  \n- No parentheses, so skip step 1.  \n- No exponents, skip step 2.  \n- Multiply: 4 \u00d7 2 = 8  \n- Add: 3 + 8 = **11**\n\n**Checkpoint:** Why do we do multiplication before addition in this problem?",
+    "thinking": "\nThe student is asking about order of operations, which is a fundamental math concept. I need to explain PEMDAS clearly. Let me structure this: define the acronym, list each step, and give a real-world analogy to show why it matters. The misconception I should watch for is students applying operations left-to-right without considering parentheses first.\n",
+    "full_response": "<think>\nThe student is asking about order of operations, which is a fundamental math concept. I need to explain PEMDAS clearly. Let me structure this: define the acronym, list each step, and give a real-world analogy to show why it matters. The misconception I should watch for is students applying operations left-to-right without considering parentheses first.\n</think>\n\n**Goal:** Understand the order of operations and why it's important for getting the correct answer.\n\n**Key Idea:** Order of operations gives a universal rule for evaluating math expressions so everyone gets the same result \u2014 it prevents different people from interpreting an expression differently.\n\n**Steps:**\n1. **P**arentheses \u2014 do everything inside parentheses first\n2. **E**xponents \u2014 handle powers or roots next\n3. **M**ultiplication and **D**ivision \u2014 work left to right\n4. **A**ddition and **S**ubtraction \u2014 work left to right\n\n**Worked Example:**  \nEvaluate: 3 + 4 \u00d7 2  \n- No parentheses, so skip step 1.  \n- No exponents, skip step 2.  \n- Multiply: 4 \u00d7 2 = 8  \n- Add: 3 + 8 = **11**\n\n**Checkpoint:** Why do we do multiplication before addition in this problem?"
+  },
+  {
+    "prompt": "What is the difference between an equation and an expression?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand the difference between an expression (a math phrase) and an equation (a complete statement).\n\n**Key Idea:** An **expression** is like a sentence fragment \u2014 it contains numbers, variables, and operations, but it doesn't say anything is true yet. An **equation** is a full sentence \u2014 it has two expressions joined by an equals sign, and it says something is true.\n\n**Steps:**\n1. An expression can be evaluated to a single value, but it doesn't claim equality.\n2. An equation states that two expressions are equal.\n3. Equations can be solved (find a value that makes it true), while expressions can be simplified.\n\n**Worked Example:**\n- Expression: 5 + 3x (this is just a phrase, we can simplify it)\n- Equation: 5 + 3x = 14 (this is a complete statement, we can solve for x)\n\n**Checkpoint:** Which of these is an equation: 2x + 5 or 2x + 5 = 14? Why?",
+    "thinking": "\nThe student is asking about the difference between an equation and an expression. I should introduce both concepts clearly. An expression is a mathematical phrase that can include numbers, variables, and operations \u2014 it doesn't have an equals sign. An equation is two expressions connected by an equals sign, representing a true statement. I'll set this up as the foundation before moving to the problem.\n",
+    "full_response": "<think>\nThe student is asking about the difference between an equation and an expression. I should introduce both concepts clearly. An expression is a mathematical phrase that can include numbers, variables, and operations \u2014 it doesn't have an equals sign. An equation is two expressions connected by an equals sign, representing a true statement. I'll set this up as the foundation before moving to the problem.\n</think>\n\n**Goal:** Understand the difference between an expression (a math phrase) and an equation (a complete statement).\n\n**Key Idea:** An **expression** is like a sentence fragment \u2014 it contains numbers, variables, and operations, but it doesn't say anything is true yet. An **equation** is a full sentence \u2014 it has two expressions joined by an equals sign, and it says something is true.\n\n**Steps:**\n1. An expression can be evaluated to a single value, but it doesn't claim equality.\n2. An equation states that two expressions are equal.\n3. Equations can be solved (find a value that makes it true), while expressions can be simplified.\n\n**Worked Example:**\n- Expression: 5 + 3x (this is just a phrase, we can simplify it)\n- Equation: 5 + 3x = 14 (this is a complete statement, we can solve for x)\n\n**Checkpoint:** Which of these is an equation: 2x + 5 or 2x + 5 = 14? Why?"
+  },
+  {
+    "prompt": "Why do we need to do the same thing to both sides of an equation?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand why we treat both sides of an equation equally.\n\n**Key Idea:** An equation shows two sides are equal. Whatever you do to one side, you must do to the other \u2014 otherwise the equality no longer holds.\n\n**Steps:**\n1. Imagine a seesaw \u2014 both sides must balance.\n2. If you add 5 to one side, you must add 5 to the other to keep it balanced.\n3. This keeps the truth of the equation intact.\n\n**Worked Example:**\nEquation: 2 + x = 5\n- Subtract 2 from both sides: 2 + x - 2 = 5 - 2\n- Simplifies to: x = 3 \u2713\n\n**Checkpoint:** If you multiply one side by 3, what do you have to do to the other side to keep the equation true?",
+    "thinking": "\nThe student is asking about the fundamental reasoning behind algebraic equivalence. I should explain that what we do to one side of an equation must be done to the other to maintain equality, using a simple analogy. This is a great place to start before diving into a specific problem.\n",
+    "full_response": "<think>\nThe student is asking about the fundamental reasoning behind algebraic equivalence. I should explain that what we do to one side of an equation must be done to the other to maintain equality, using a simple analogy. This is a great place to start before diving into a specific problem.\n</think>\n\n**Goal:** Understand why we treat both sides of an equation equally.\n\n**Key Idea:** An equation shows two sides are equal. Whatever you do to one side, you must do to the other \u2014 otherwise the equality no longer holds.\n\n**Steps:**\n1. Imagine a seesaw \u2014 both sides must balance.\n2. If you add 5 to one side, you must add 5 to the other to keep it balanced.\n3. This keeps the truth of the equation intact.\n\n**Worked Example:**\nEquation: 2 + x = 5\n- Subtract 2 from both sides: 2 + x - 2 = 5 - 2\n- Simplifies to: x = 3 \u2713\n\n**Checkpoint:** If you multiply one side by 3, what do you have to do to the other side to keep the equation true?"
+  },
+  {
+    "prompt": "Can you explain what a variable represents in algebra?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand what a variable actually stands for.\n\n**Key Idea:** A variable is a placeholder for an unknown number \u2014 it represents a value we don't know yet, but we can work with.\n\n**Steps:**\n1. A variable is a letter (like x, y, z) that stands in for a number.\n2. It can change \u2014 different situations give it different values.\n3. In an equation, a variable helps us find a missing number.\n\n**Worked Example:** In x + 5 = 10, x stands for the number that, when added to 5, gives 10. So x = 5.\n\n**Checkpoint:** Can you give me an example of a situation where a variable would be useful?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand what a variable actually stands for.\n\n**Key Idea:** A variable is a placeholder for an unknown number \u2014 it represents a value we don't know yet, but we can work with.\n\n**Steps:**\n1. A variable is a letter (like x, y, z) that stands in for a number.\n2. It can change \u2014 different situations give it different values.\n3. In an equation, a variable helps us find a missing number.\n\n**Worked Example:** In x + 5 = 10, x stands for the number that, when added to 5, gives 10. So x = 5.\n\n**Checkpoint:** Can you give me an example of a situation where a variable would be useful?"
+  },
+  {
+    "prompt": "What does distribute mean in math?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand the meaning of \"distribute\" in algebra.\n\n**Key Idea:** Distribute means to multiply a number by each term inside parentheses separately.\n\n**Steps:**\n1. Identify the number outside the parentheses\n2. Multiply that number by each term inside the parentheses\n3. Add the results together\n\n**Worked Example:**\n2(3 + 4) becomes 2\u00d73 + 2\u00d74 = 6 + 8 = 14\n\n**Checkpoint:** Try this: 5(2 + 6) = ? What do you get?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand the meaning of \"distribute\" in algebra.\n\n**Key Idea:** Distribute means to multiply a number by each term inside parentheses separately.\n\n**Steps:**\n1. Identify the number outside the parentheses\n2. Multiply that number by each term inside the parentheses\n3. Add the results together\n\n**Worked Example:**\n2(3 + 4) becomes 2\u00d73 + 2\u00d74 = 6 + 8 = 14\n\n**Checkpoint:** Try this: 5(2 + 6) = ? What do you get?"
+  },
+  {
+    "prompt": "How do you convert a percentage to a decimal?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Learn how to convert percentages to decimals.\n\n**Key Idea:** A percentage is a fraction out of 100, so you divide by 100 to convert it to a decimal.\n\n**Steps:**\n1. Start with the percentage number (e.g., 25%)\n2. Divide by 100: 25 \u00f7 100 = 0.25\n\n**Worked Example:** 25% \u00f7 100 = 0.25\n\n**Checkpoint:** What decimal would you get for 15%?",
+    "thinking": "",
+    "full_response": "**Goal:** Learn how to convert percentages to decimals.\n\n**Key Idea:** A percentage is a fraction out of 100, so you divide by 100 to convert it to a decimal.\n\n**Steps:**\n1. Start with the percentage number (e.g., 25%)\n2. Divide by 100: 25 \u00f7 100 = 0.25\n\n**Worked Example:** 25% \u00f7 100 = 0.25\n\n**Checkpoint:** What decimal would you get for 15%?"
+  },
+  {
+    "prompt": "What is the difference between a ratio and a fraction?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand how ratios and fractions are similar and different.\n\n**Key Idea:** A **fraction** tells us *how much of a single whole* we have, while a **ratio** compares *two or more different quantities*.\n\n**Steps:**\n1. A fraction has a numerator (top) and a denominator (bottom). The denominator tells us the size of the whole.\n2. A ratio compares parts of a group. The denominator in a ratio doesn't mean the \"whole\" \u2014 it's just the second quantity in the comparison.\n\n**Worked Example:**\n- Fraction: 3/4 means 3 out of 4 equal parts of a *single* whole (like 3/4 of a pizza).\n- Ratio: 3:4 means for every 3 red marbles, there are 4 blue marbles (a comparison between two different groups).\n\n**Checkpoint:** Can you tell me which one is a ratio and which is a fraction in this statement: \"There are 3 red cars for every 4 blue cars\"?",
+    "thinking": "\nThe student is asking about a foundational math concept. I should explain the difference clearly but simply.\n\nA fraction represents a part of a whole. It has a numerator and a denominator, and it tells us how many parts of the whole we're considering.\n\nA ratio compares two or more quantities. It can be written as a:b, a/b, or \"a to b\" and it shows the relationship between different parts, not necessarily of a single whole.\n\nI should set up a clear contrast and give an example to make it concrete.\n",
+    "full_response": "<think>\nThe student is asking about a foundational math concept. I should explain the difference clearly but simply.\n\nA fraction represents a part of a whole. It has a numerator and a denominator, and it tells us how many parts of the whole we're considering.\n\nA ratio compares two or more quantities. It can be written as a:b, a/b, or \"a to b\" and it shows the relationship between different parts, not necessarily of a single whole.\n\nI should set up a clear contrast and give an example to make it concrete.\n</think>\n\n**Goal:** Understand how ratios and fractions are similar and different.\n\n**Key Idea:** A **fraction** tells us *how much of a single whole* we have, while a **ratio** compares *two or more different quantities*.\n\n**Steps:**\n1. A fraction has a numerator (top) and a denominator (bottom). The denominator tells us the size of the whole.\n2. A ratio compares parts of a group. The denominator in a ratio doesn't mean the \"whole\" \u2014 it's just the second quantity in the comparison.\n\n**Worked Example:**\n- Fraction: 3/4 means 3 out of 4 equal parts of a *single* whole (like 3/4 of a pizza).\n- Ratio: 3:4 means for every 3 red marbles, there are 4 blue marbles (a comparison between two different groups).\n\n**Checkpoint:** Can you tell me which one is a ratio and which is a fraction in this statement: \"There are 3 red cars for every 4 blue cars\"?"
+  },
+  {
+    "prompt": "Why is dividing by zero undefined?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand why dividing by zero is undefined.\n\n**Key Idea:** Division is about grouping \u2014 you can't divide something into zero groups because there are no groups to put the items into.\n\n**Steps:**\n1. Division means: \"How many groups of size x can I make from y items?\"\n2. If x = 0, you're asking: \"How many groups of size 0 can I make from y items?\"\n3. This is undefined because you can't form any groups (0 is no size at all), and it leads to contradictions in math.\n\n**Worked Example:**\n- 6 \u00f7 2 = 3 means: 6 items split into groups of 2 \u2014 you get 3 groups.\n- 6 \u00f7 0 = ? means: 6 items split into groups of 0 \u2014 you can't form any groups.\n\n**Checkpoint:** What does it mean to say something is \"undefined\" in math?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand why dividing by zero is undefined.\n\n**Key Idea:** Division is about grouping \u2014 you can't divide something into zero groups because there are no groups to put the items into.\n\n**Steps:**\n1. Division means: \"How many groups of size x can I make from y items?\"\n2. If x = 0, you're asking: \"How many groups of size 0 can I make from y items?\"\n3. This is undefined because you can't form any groups (0 is no size at all), and it leads to contradictions in math.\n\n**Worked Example:**\n- 6 \u00f7 2 = 3 means: 6 items split into groups of 2 \u2014 you get 3 groups.\n- 6 \u00f7 0 = ? means: 6 items split into groups of 0 \u2014 you can't form any groups.\n\n**Checkpoint:** What does it mean to say something is \"undefined\" in math?"
+  },
+  {
+    "prompt": "What does simplify mean when working with expressions?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand what \"simplify\" means in algebra.\n\n**Key Idea:** Simplify means to make an expression as simple and compact as possible, usually by combining like terms and using exponent rules.\n\n**Steps:**\n1. **Combine like terms** \u2014 add/subtract terms with the same variable and exponent.\n2. **Use exponent rules** \u2014 simplify powers when possible (e.g., x\u00b2 \u00b7 x\u00b3 = x\u2075).\n3. **Remove parentheses** \u2014 distribute multiplication across addition/subtraction.\n4. **Order of operations** \u2014 always follow PEMDAS (Parentheses, Exponents, Multiplication/Division, Addition/Subtraction).\n\n**Worked Example:** Simplify 3x + 2x \u2212 5.\n- Combine like terms: 3x + 2x = 5x\n- Final answer: **5x \u2212 5**\n\n**Checkpoint:** Can you simplify 2a + 3a \u2212 4a? What do you get?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand what \"simplify\" means in algebra.\n\n**Key Idea:** Simplify means to make an expression as simple and compact as possible, usually by combining like terms and using exponent rules.\n\n**Steps:**\n1. **Combine like terms** \u2014 add/subtract terms with the same variable and exponent.\n2. **Use exponent rules** \u2014 simplify powers when possible (e.g., x\u00b2 \u00b7 x\u00b3 = x\u2075).\n3. **Remove parentheses** \u2014 distribute multiplication across addition/subtraction.\n4. **Order of operations** \u2014 always follow PEMDAS (Parentheses, Exponents, Multiplication/Division, Addition/Subtraction).\n\n**Worked Example:** Simplify 3x + 2x \u2212 5.\n- Combine like terms: 3x + 2x = 5x\n- Final answer: **5x \u2212 5**\n\n**Checkpoint:** Can you simplify 2a + 3a \u2212 4a? What do you get?"
+  },
+  {
+    "prompt": "How do inequalities differ from equations?",
+    "type": "concept",
+    "expected_answer": null,
+    "response": "**Goal:** Understand the fundamental difference between inequalities and equations.\n\n**Key Idea:** Inequalities show a *range* of solutions, while equations have a *single* solution.\n\n**Steps:**\n1. **Equations** = \"equals\" sign \u2014 find the specific value that makes it true.\n   - Example: $ x + 2 = 5 $ \u2192 solve for $ x = 3 $\n2. **Inequalities** = \"greater than,\" \"less than,\" etc. \u2014 find all values that make it true.\n   - Example: $ x + 2 > 5 $ \u2192 solve for $ x > 3 $ (any number greater than 3 works)\n\n**Worked Example:**\n- Equation: $ x = 5 $ \u2192 one solution.\n- Inequality: $ x > 5 $ \u2192 infinite solutions: 6, 7, 8, ...\n\n**Checkpoint:** Can you think of a real-life situation where an inequality would make more sense than an equation?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand the fundamental difference between inequalities and equations.\n\n**Key Idea:** Inequalities show a *range* of solutions, while equations have a *single* solution.\n\n**Steps:**\n1. **Equations** = \"equals\" sign \u2014 find the specific value that makes it true.\n   - Example: $ x + 2 = 5 $ \u2192 solve for $ x = 3 $\n2. **Inequalities** = \"greater than,\" \"less than,\" etc. \u2014 find all values that make it true.\n   - Example: $ x + 2 > 5 $ \u2192 solve for $ x > 3 $ (any number greater than 3 works)\n\n**Worked Example:**\n- Equation: $ x = 5 $ \u2192 one solution.\n- Inequality: $ x > 5 $ \u2192 infinite solutions: 6, 7, 8, ...\n\n**Checkpoint:** Can you think of a real-life situation where an inequality would make more sense than an equation?"
+  },
+  {
+    "prompt": "Solve 3(x-4) = 15",
+    "type": "problem",
+    "expected_answer": "9",
+    "response": "**Goal:** Learn how to solve a simple linear equation step by step.\n\n**Key Idea:** When an equation has parentheses, you can simplify it by either distributing first OR isolating the parentheses first \u2014 both approaches work! Let's try isolating first, which keeps things simpler.\n\n**Steps:**\n1. **Divide both sides by 3** to undo the multiplication: this removes the coefficient in front of the parentheses.\n2. **Add 4 to both sides** to isolate x.\n\n**Worked Example:**\n3(x - 4) = 15  \nDivide by 3: x - 4 = 5  \nAdd 4: x = 9\n\n**Checkpoint:** Why do we divide by 3 before distributing?",
+    "thinking": "\nThe student needs to solve 3(x-4) = 15. Let me work through this. First, divide both sides by 3: x-4 = 5. Then add 4: x = 9. A common misconception might be to distribute the 3 first before dividing, leading to 3x-4 = 15, which is a sign error. I should introduce the problem clearly, then show the correct order of operations and explain why distributing first is a trap.\n",
+    "full_response": "<think>\nThe student needs to solve 3(x-4) = 15. Let me work through this. First, divide both sides by 3: x-4 = 5. Then add 4: x = 9. A common misconception might be to distribute the 3 first before dividing, leading to 3x-4 = 15, which is a sign error. I should introduce the problem clearly, then show the correct order of operations and explain why distributing first is a trap.\n</think>\n\n**Goal:** Learn how to solve a simple linear equation step by step.\n\n**Key Idea:** When an equation has parentheses, you can simplify it by either distributing first OR isolating the parentheses first \u2014 both approaches work! Let's try isolating first, which keeps things simpler.\n\n**Steps:**\n1. **Divide both sides by 3** to undo the multiplication: this removes the coefficient in front of the parentheses.\n2. **Add 4 to both sides** to isolate x.\n\n**Worked Example:**\n3(x - 4) = 15  \nDivide by 3: x - 4 = 5  \nAdd 4: x = 9\n\n**Checkpoint:** Why do we divide by 3 before distributing?"
+  },
+  {
+    "prompt": "Solve 2x + 7 = 19",
+    "type": "problem",
+    "expected_answer": "6",
+    "response": "**Goal:** Solve for x in the equation 2x + 7 = 19.\n\n**Key Idea:** Isolate the variable x by undoing operations in reverse order \u2014 first subtract 7, then divide by 2.\n\n**Steps:**\n1. Subtract 7 from both sides: 2x + 7 - 7 = 19 - 7 \u2192 2x = 12\n2. Divide both sides by 2: 2x/2 = 12/2 \u2192 x = 6\n\n**Worked Example:**\n2x + 7 = 19\n2x + 7 - 7 = 19 - 7 \u2192 2x = 12\n2x/2 = 12/2 \u2192 x = 6\n\n**Checkpoint:** Why do we subtract 7 first before dividing by 2?",
+    "thinking": "",
+    "full_response": "**Goal:** Solve for x in the equation 2x + 7 = 19.\n\n**Key Idea:** Isolate the variable x by undoing operations in reverse order \u2014 first subtract 7, then divide by 2.\n\n**Steps:**\n1. Subtract 7 from both sides: 2x + 7 - 7 = 19 - 7 \u2192 2x = 12\n2. Divide both sides by 2: 2x/2 = 12/2 \u2192 x = 6\n\n**Worked Example:**\n2x + 7 = 19\n2x + 7 - 7 = 19 - 7 \u2192 2x = 12\n2x/2 = 12/2 \u2192 x = 6\n\n**Checkpoint:** Why do we subtract 7 first before dividing by 2?"
+  },
+  {
+    "prompt": "A store has 30% off. Original price is $60. What do I pay?",
+    "type": "problem",
+    "expected_answer": "42",
+    "response": "**Goal:** Find the sale price after a 30% discount.\n\n**Key Idea:** A 30% discount means you pay 70% of the original price.\n\n**Steps:**\n1. Convert 30% to a decimal: 30% = 0.30\n2. Subtract from 1: 1 - 0.30 = 0.70\n3. Multiply by original price: $60 \u00d7 0.70\n\n**Worked Example:**\n$60 \u00d7 0.70 = $42\n\n**Checkpoint:** Why do we multiply by 0.70 instead of 0.30?",
+    "thinking": "",
+    "full_response": "**Goal:** Find the sale price after a 30% discount.\n\n**Key Idea:** A 30% discount means you pay 70% of the original price.\n\n**Steps:**\n1. Convert 30% to a decimal: 30% = 0.30\n2. Subtract from 1: 1 - 0.30 = 0.70\n3. Multiply by original price: $60 \u00d7 0.70\n\n**Worked Example:**\n$60 \u00d7 0.70 = $42\n\n**Checkpoint:** Why do we multiply by 0.70 instead of 0.30?"
+  },
+  {
+    "prompt": "If 3/4 of a number is 24, what is the number?",
+    "type": "problem",
+    "expected_answer": "32",
+    "response": "**Goal:** Learn how to find a whole number when you know a fraction of it.\n\n**Key Idea:** If 3/4 of a number equals 24, you can reverse the operation to find the whole number \u2014 divide 24 by 3/4, which is the same as multiplying by 4/3.\n\n**Steps:**\n1. Let the unknown number = x\n2. Write the equation: 3/4 \u00d7 x = 24\n3. To isolate x, divide both sides by 3/4 (or multiply by 4/3)\n4. x = 24 \u00d7 (4/3)\n\n**Worked Example:**\n24 \u00d7 4 = 96\n96 \u00f7 3 = **32**\n\n**Checkpoint:** Why do we multiply by 4/3 instead of just dividing by 3?",
+    "thinking": "\nThe student is asking a good algebra problem. Let me work through it first:\n3/4 \u00d7 x = 24\nx = 24 \u00f7 (3/4) = 24 \u00d7 (4/3) = 32\n\nThe common misconception here is that students might divide 24 by 3 instead of multiplying by 4/3, or they might forget to invert the fraction when dividing. I should set up the equation clearly and then explain why dividing by a fraction is the same as multiplying by its reciprocal.\n",
+    "full_response": "<think>\nThe student is asking a good algebra problem. Let me work through it first:\n3/4 \u00d7 x = 24\nx = 24 \u00f7 (3/4) = 24 \u00d7 (4/3) = 32\n\nThe common misconception here is that students might divide 24 by 3 instead of multiplying by 4/3, or they might forget to invert the fraction when dividing. I should set up the equation clearly and then explain why dividing by a fraction is the same as multiplying by its reciprocal.\n</think>\n\n**Goal:** Learn how to find a whole number when you know a fraction of it.\n\n**Key Idea:** If 3/4 of a number equals 24, you can reverse the operation to find the whole number \u2014 divide 24 by 3/4, which is the same as multiplying by 4/3.\n\n**Steps:**\n1. Let the unknown number = x\n2. Write the equation: 3/4 \u00d7 x = 24\n3. To isolate x, divide both sides by 3/4 (or multiply by 4/3)\n4. x = 24 \u00d7 (4/3)\n\n**Worked Example:**\n24 \u00d7 4 = 96\n96 \u00f7 3 = **32**\n\n**Checkpoint:** Why do we multiply by 4/3 instead of just dividing by 3?"
+  },
+  {
+    "prompt": "Solve: x/5 + 3 = 10",
+    "type": "problem",
+    "expected_answer": "35",
+    "response": "**Goal:** Solve the equation $ \\frac{x}{5} + 3 = 10 $\n\n**Key Idea:** To isolate $ x $, undo operations in reverse order \u2014 first remove the 3, then undo the division by 5.\n\n**Steps:**\n1. Subtract 3 from both sides: $ \\frac{x}{5} = 7 $\n2. Multiply both sides by 5: $ x = 35 $\n\n**Worked Example:**\n- Step 1: $ \\frac{x}{5} + 3 - 3 = 10 - 3 \\Rightarrow \\frac{x}{5} = 7 $\n- Step 2: $ \\frac{x}{5} \\times 5 = 7 \\times 5 \\Rightarrow x = 35 $\n\n**Checkpoint:** Can you walk me through why we subtract 3 first and then multiply by 5?",
+    "thinking": "",
+    "full_response": "**Goal:** Solve the equation $ \\frac{x}{5} + 3 = 10 $\n\n**Key Idea:** To isolate $ x $, undo operations in reverse order \u2014 first remove the 3, then undo the division by 5.\n\n**Steps:**\n1. Subtract 3 from both sides: $ \\frac{x}{5} = 7 $\n2. Multiply both sides by 5: $ x = 35 $\n\n**Worked Example:**\n- Step 1: $ \\frac{x}{5} + 3 - 3 = 10 - 3 \\Rightarrow \\frac{x}{5} = 7 $\n- Step 2: $ \\frac{x}{5} \\times 5 = 7 \\times 5 \\Rightarrow x = 35 $\n\n**Checkpoint:** Can you walk me through why we subtract 3 first and then multiply by 5?"
+  },
+  {
+    "prompt": "A rectangle has length 12 and width 5. What is its area?",
+    "type": "problem",
+    "expected_answer": "60",
+    "response": "**Goal:** Learn how to find the area of a rectangle using the formula.\n\n**Key Idea:** The area of a rectangle is found by multiplying its length by its width. This gives you the total number of unit squares that fit inside the rectangle.\n\n**Steps:**\n1. Identify the length and width: length = 12, width = 5\n2. Multiply: area = length \u00d7 width\n3. Calculate: 12 \u00d7 5 = 60\n\n**Worked Example:**\n- Step 1: length = 12, width = 5 \u2713\n- Step 2: area = 12 \u00d7 5 \u2713\n- Step 3: 12 \u00d7 5 = 60 \u2713\n\n**Checkpoint:** Can you tell me, in your own words, why we multiply the length by the width to find the area?",
+    "thinking": "\nThe student is asking for the area of a rectangle with length 12 and width 5. This is a straightforward multiplication problem. Area = length \u00d7 width = 12 \u00d7 5 = 60. I should introduce the formula clearly, then work through the calculation step-by-step. The student hasn't shown any confusion yet, so this is a good place to start.\n",
+    "full_response": "<think>\nThe student is asking for the area of a rectangle with length 12 and width 5. This is a straightforward multiplication problem. Area = length \u00d7 width = 12 \u00d7 5 = 60. I should introduce the formula clearly, then work through the calculation step-by-step. The student hasn't shown any confusion yet, so this is a good place to start.\n</think>\n\n**Goal:** Learn how to find the area of a rectangle using the formula.\n\n**Key Idea:** The area of a rectangle is found by multiplying its length by its width. This gives you the total number of unit squares that fit inside the rectangle.\n\n**Steps:**\n1. Identify the length and width: length = 12, width = 5\n2. Multiply: area = length \u00d7 width\n3. Calculate: 12 \u00d7 5 = 60\n\n**Worked Example:**\n- Step 1: length = 12, width = 5 \u2713\n- Step 2: area = 12 \u00d7 5 \u2713\n- Step 3: 12 \u00d7 5 = 60 \u2713\n\n**Checkpoint:** Can you tell me, in your own words, why we multiply the length by the width to find the area?"
+  },
+  {
+    "prompt": "Solve: 4x - 8 = 2x + 6",
+    "type": "problem",
+    "expected_answer": "7",
+    "response": "**Goal:** Solve this linear equation for x.\n\n**Key Idea:** To isolate x, we need to get all x terms on one side and constants on the other. Subtract 2x from both sides to start.\n\n**Steps:**\n1. Subtract 2x from both sides: 4x - 2x - 8 = 2x - 2x + 6 \u2192 2x - 8 = 6\n2. Add 8 to both sides: 2x - 8 + 8 = 6 + 8 \u2192 2x = 14\n3. Divide by 2: x = 14 \u00f7 2 = 7\n\n**Answer:** x = 7\n\n**Checkpoint:** Why do we subtract 2x from both sides?",
+    "thinking": "",
+    "full_response": "**Goal:** Solve this linear equation for x.\n\n**Key Idea:** To isolate x, we need to get all x terms on one side and constants on the other. Subtract 2x from both sides to start.\n\n**Steps:**\n1. Subtract 2x from both sides: 4x - 2x - 8 = 2x - 2x + 6 \u2192 2x - 8 = 6\n2. Add 8 to both sides: 2x - 8 + 8 = 6 + 8 \u2192 2x = 14\n3. Divide by 2: x = 14 \u00f7 2 = 7\n\n**Answer:** x = 7\n\n**Checkpoint:** Why do we subtract 2x from both sides?"
+  },
+  {
+    "prompt": "What is 15% of 200?",
+    "type": "problem",
+    "expected_answer": "30",
+    "response": "**Goal:** Learn how to find a percentage of a number using the formula: **part = whole \u00d7 percent**\n\n**Key Idea:** Percent means \"per hundred,\" so you convert the percentage to a decimal (divide by 100) and multiply it by the whole number.\n\n**Steps:**\n1. Convert 15% to a decimal: 15 \u00f7 100 = 0.15\n2. Multiply the decimal by the whole (200): 200 \u00d7 0.15 = ?\n\n**Worked Example:**\n200 \u00d7 0.15 = 30\n\n**Checkpoint:** Does it make sense that 10% of 200 is 20, so 15% should be a bit more than 20?",
+    "thinking": "\nThe student is asking for a straightforward percentage calculation. Let me work through it:\n15% = 0.15\n15% of 200 = 0.15 \u00d7 200 = 30\n\nI should teach them the standard percentage formula: part = whole \u00d7 percent. I'll set up the problem clearly and walk them through each step.\n",
+    "full_response": "<think>\nThe student is asking for a straightforward percentage calculation. Let me work through it:\n15% = 0.15\n15% of 200 = 0.15 \u00d7 200 = 30\n\nI should teach them the standard percentage formula: part = whole \u00d7 percent. I'll set up the problem clearly and walk them through each step.\n</think>\n\n**Goal:** Learn how to find a percentage of a number using the formula: **part = whole \u00d7 percent**\n\n**Key Idea:** Percent means \"per hundred,\" so you convert the percentage to a decimal (divide by 100) and multiply it by the whole number.\n\n**Steps:**\n1. Convert 15% to a decimal: 15 \u00f7 100 = 0.15\n2. Multiply the decimal by the whole (200): 200 \u00d7 0.15 = ?\n\n**Worked Example:**\n200 \u00d7 0.15 = 30\n\n**Checkpoint:** Does it make sense that 10% of 200 is 20, so 15% should be a bit more than 20?"
+  },
+  {
+    "prompt": "Solve: 5(x + 2) = 3(x + 8)",
+    "type": "problem",
+    "expected_answer": "7",
+    "response": "**Goal:** Solve this linear equation for x.\n\n**Key Idea:** Use the distributive property to remove parentheses, then combine like terms.\n\n**Steps:**\n1. **Distribute** 5 and 3 across the parentheses: 5x + 10 = 3x + 24\n2. **Subtract 3x** from both sides: 2x + 10 = 24\n3. **Subtract 10** from both sides: 2x = 14\n4. **Divide by 2:** x = 7\n\n**Worked Example:**\n5(x + 2) = 3(x + 8)\n5x + 10 = 3x + 24\n2x = 14\nx = 7\n\n**Checkpoint:** Let me know if you'd like to try a similar problem on your own!",
+    "thinking": "",
+    "full_response": "**Goal:** Solve this linear equation for x.\n\n**Key Idea:** Use the distributive property to remove parentheses, then combine like terms.\n\n**Steps:**\n1. **Distribute** 5 and 3 across the parentheses: 5x + 10 = 3x + 24\n2. **Subtract 3x** from both sides: 2x + 10 = 24\n3. **Subtract 10** from both sides: 2x = 14\n4. **Divide by 2:** x = 7\n\n**Worked Example:**\n5(x + 2) = 3(x + 8)\n5x + 10 = 3x + 24\n2x = 14\nx = 7\n\n**Checkpoint:** Let me know if you'd like to try a similar problem on your own!"
+  },
+  {
+    "prompt": "A car travels 240 miles in 4 hours. What is its speed?",
+    "type": "problem",
+    "expected_answer": "60",
+    "response": "**Goal:** Learn how to find speed using the formula speed = distance \u00f7 time.\n\n**Key Idea:** Speed tells you how many miles a car travels in one hour. You divide the total distance by the total time to find this rate.\n\n**Steps:**\n1. Identify the distance (how far the car went): 240 miles\n2. Identify the time (how long it took): 4 hours\n3. Divide distance by time: 240 \u00f7 4\n\n**Worked Example:**\n240 \u00f7 4 = **60**\n\n**Checkpoint:** Can you tell me what the car's speed means in words? What does the answer 60 represent?",
+    "thinking": "\nThe student needs to find speed using the formula speed = distance \u00f7 time. Let me work through this:\nSpeed = 240 miles \u00f7 4 hours = 60 miles per hour\nThe common misconception here might be the student might divide incorrectly or mix up the order of the numbers. I should set up the formula clearly and walk through the division step-by-step.\n",
+    "full_response": "<think>\nThe student needs to find speed using the formula speed = distance \u00f7 time. Let me work through this:\nSpeed = 240 miles \u00f7 4 hours = 60 miles per hour\nThe common misconception here might be the student might divide incorrectly or mix up the order of the numbers. I should set up the formula clearly and walk through the division step-by-step.\n</think>\n\n**Goal:** Learn how to find speed using the formula speed = distance \u00f7 time.\n\n**Key Idea:** Speed tells you how many miles a car travels in one hour. You divide the total distance by the total time to find this rate.\n\n**Steps:**\n1. Identify the distance (how far the car went): 240 miles\n2. Identify the time (how long it took): 4 hours\n3. Divide distance by time: 240 \u00f7 4\n\n**Worked Example:**\n240 \u00f7 4 = **60**\n\n**Checkpoint:** Can you tell me what the car's speed means in words? What does the answer 60 represent?"
+  },
+  {
+    "prompt": "Solve: 2(3x - 1) = 4(x + 3)",
+    "type": "problem",
+    "expected_answer": "7",
+    "response": "**Goal:** Learn to solve linear equations by distributing and isolating variables.\n\n**Key Idea:** Use the distributive property to remove parentheses, then get all x terms on one side and constants on the other.\n\n**Steps:**\n1. **Distribute** each factor: Multiply everything inside the parentheses by the outside number.\n2. **Simplify both sides** by combining like terms.\n3. **Move all x terms to one side** by subtracting the smaller x term.\n4. **Isolate x** by doing the opposite operation to the constant.\n\n**Worked Example (Step 1):**\n2(3x - 1) = 4(x + 3)\nDistribute: **6x - 2 = 4x + 12**\n\n**Checkpoint:** Now that we've distributed, what do you do next to get all x terms on one side?",
+    "thinking": "\nThe student needs to solve a linear equation. Let me work through this:\n2(3x - 1) = 4(x + 3)\nDistribute: 6x - 2 = 4x + 12\nSubtract 4x: 2x - 2 = 12\nAdd 2: 2x = 14\nDivide by 2: x = 7\n\nI should introduce the distributive property first, then guide them through isolating x step by step. A common misconception might be forgetting to distribute a negative sign, so I'll set up the framework clearly.\n",
+    "full_response": "<think>\nThe student needs to solve a linear equation. Let me work through this:\n2(3x - 1) = 4(x + 3)\nDistribute: 6x - 2 = 4x + 12\nSubtract 4x: 2x - 2 = 12\nAdd 2: 2x = 14\nDivide by 2: x = 7\n\nI should introduce the distributive property first, then guide them through isolating x step by step. A common misconception might be forgetting to distribute a negative sign, so I'll set up the framework clearly.\n</think>\n\n**Goal:** Learn to solve linear equations by distributing and isolating variables.\n\n**Key Idea:** Use the distributive property to remove parentheses, then get all x terms on one side and constants on the other.\n\n**Steps:**\n1. **Distribute** each factor: Multiply everything inside the parentheses by the outside number.\n2. **Simplify both sides** by combining like terms.\n3. **Move all x terms to one side** by subtracting the smaller x term.\n4. **Isolate x** by doing the opposite operation to the constant.\n\n**Worked Example (Step 1):**\n2(3x - 1) = 4(x + 3)\nDistribute: **6x - 2 = 4x + 12**\n\n**Checkpoint:** Now that we've distributed, what do you do next to get all x terms on one side?"
+  },
+  {
+    "prompt": "Buy 3 notebooks at $4.50 each, pay with $20. What change?",
+    "type": "problem",
+    "expected_answer": "6.50",
+    "response": "**Goal:** Find the total cost of 3 notebooks, then subtract from $20 to find the change.\n\n**Key Idea:** Multiply the price per notebook by the number of notebooks to get the total cost before finding the change.\n\n**Steps:**\n1. **Find total cost:** Multiply $4.50 \u00d7 3 (price \u00d7 quantity).\n2. **Find change:** Subtract total cost from $20.\n\n**Worked Example:**\n- Step 1: $4.50 \u00d7 3 = **$13.50** (this is the total spent)\n- Step 2: $20 \u2212 $13.50 = **$6.50** (this is what's left)\n\n**Checkpoint:** Can you confirm that multiplying $4.50 \u00d7 3 gives the correct total cost of $13.50?",
+    "thinking": "\nThe student needs to find the change from $20 after buying 3 notebooks at $4.50 each.\n\nFirst step: multiply 3 \u00d7 $4.50 = $13.50 total cost\nThen subtract from $20: $20 \u2212 $13.50 = $6.50\n\nThe common misconception here is the order of operations \u2014 students might add $20 + $4.50 = $24.50 first, then multiply by 3, which is incorrect. I should introduce the multiplication first, then the subtraction.\n",
+    "full_response": "<think>\nThe student needs to find the change from $20 after buying 3 notebooks at $4.50 each.\n\nFirst step: multiply 3 \u00d7 $4.50 = $13.50 total cost\nThen subtract from $20: $20 \u2212 $13.50 = $6.50\n\nThe common misconception here is the order of operations \u2014 students might add $20 + $4.50 = $24.50 first, then multiply by 3, which is incorrect. I should introduce the multiplication first, then the subtraction.\n</think>\n\n**Goal:** Find the total cost of 3 notebooks, then subtract from $20 to find the change.\n\n**Key Idea:** Multiply the price per notebook by the number of notebooks to get the total cost before finding the change.\n\n**Steps:**\n1. **Find total cost:** Multiply $4.50 \u00d7 3 (price \u00d7 quantity).\n2. **Find change:** Subtract total cost from $20.\n\n**Worked Example:**\n- Step 1: $4.50 \u00d7 3 = **$13.50** (this is the total spent)\n- Step 2: $20 \u2212 $13.50 = **$6.50** (this is what's left)\n\n**Checkpoint:** Can you confirm that multiplying $4.50 \u00d7 3 gives the correct total cost of $13.50?"
+  },
+  {
+    "prompt": "I think 2(x+3) = 2x+3. Is that right?",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "**Goal:** Understand how to distribute a coefficient across parentheses.\n\n**Key Idea:** The distributive property means you multiply the coefficient by each term inside the parentheses.\n\n**Steps:**\n1. Identify the coefficient (2) and the binomial inside parentheses (x + 3)\n2. Multiply 2 by x: 2 \u00d7 x = 2x\n3. Multiply 2 by 3: 2 \u00d7 3 = 6\n4. Combine: 2x + 6\n\n**Worked Example:** 2(x + 3) = 2\u00d7x + 2\u00d73 = 2x + 6\n\n**Checkpoint:** Why do we multiply 2 by 3 and not just leave the 3 as is?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand how to distribute a coefficient across parentheses.\n\n**Key Idea:** The distributive property means you multiply the coefficient by each term inside the parentheses.\n\n**Steps:**\n1. Identify the coefficient (2) and the binomial inside parentheses (x + 3)\n2. Multiply 2 by x: 2 \u00d7 x = 2x\n3. Multiply 2 by 3: 2 \u00d7 3 = 6\n4. Combine: 2x + 6\n\n**Worked Example:** 2(x + 3) = 2\u00d7x + 2\u00d73 = 2x + 6\n\n**Checkpoint:** Why do we multiply 2 by 3 and not just leave the 3 as is?"
+  },
+  {
+    "prompt": "For 3x = 12, I divided both sides by 12 and got x=1/4. Correct?",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "**Goal:** Learn the correct division step in a simple equation.\n\n**Key Idea:** To isolate x, you divide both sides by the coefficient of x (the number attached to x).\n\n**Steps:**\n1. Start: 3x = 12\n2. Divide both sides by 3: (3x)/3 = 12/3\n3. Simplify: x = 4\n\n**Worked Example:**\n- 3x = 12\n- (3x)/3 = 12/3\n- x = 4 \u2713\n\n**Checkpoint:** Why do we divide by 3 and not by 12?",
+    "thinking": "\nThe student correctly divided both sides by 12, but they flipped the fraction: 3x = 12 becomes x = 12/3 = 4, not 1/4. The error is dividing by 12 instead of by 3. I should first acknowledge their correct step of dividing both sides, then show where they inverted the fraction. The student needs to understand that when you divide both sides by 3, you get x = 12/3 = 4.\n",
+    "full_response": "<think>\nThe student correctly divided both sides by 12, but they flipped the fraction: 3x = 12 becomes x = 12/3 = 4, not 1/4. The error is dividing by 12 instead of by 3. I should first acknowledge their correct step of dividing both sides, then show where they inverted the fraction. The student needs to understand that when you divide both sides by 3, you get x = 12/3 = 4.\n</think>\n\n**Goal:** Learn the correct division step in a simple equation.\n\n**Key Idea:** To isolate x, you divide both sides by the coefficient of x (the number attached to x).\n\n**Steps:**\n1. Start: 3x = 12\n2. Divide both sides by 3: (3x)/3 = 12/3\n3. Simplify: x = 4\n\n**Worked Example:**\n- 3x = 12\n- (3x)/3 = 12/3\n- x = 4 \u2713\n\n**Checkpoint:** Why do we divide by 3 and not by 12?"
+  },
+  {
+    "prompt": "I solved 2x + 10 = 0 and got x = 5. Right?",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "Great effort! Let's check your work.\n\n2x + 10 = 0  \n2x = -10 (subtract 10 from both sides)  \nx = -5 (divide both sides by 2)\n\nYour sign is off \u2014 you got x = 5 instead of x = -5. This is a common sign error. The subtraction from both sides flips the sign of the constant term.\n\nLet me know if you'd like to try another problem!",
+    "thinking": "",
+    "full_response": "Great effort! Let's check your work.\n\n2x + 10 = 0  \n2x = -10 (subtract 10 from both sides)  \nx = -5 (divide both sides by 2)\n\nYour sign is off \u2014 you got x = 5 instead of x = -5. This is a common sign error. The subtraction from both sides flips the sign of the constant term.\n\nLet me know if you'd like to try another problem!"
+  },
+  {
+    "prompt": "To add 1/3 + 1/4, I added tops and bottoms: 2/7. Correct?",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "Great start! You're thinking about fractions correctly. However, here's the catch: you can't just add the numerators and denominators separately like that. \n\n**Why?** Adding denominators mixes up the meaning \u2014 you're not combining the same units. 3 and 4 are different \"sizes\" so they need to be converted first.\n\n**Step 1: Find a common denominator** \u2014 the least common multiple of 3 and 4 is 12.\n\n**Step 2: Convert each fraction:**\n- 1/3 = 4/12 (because 1 \u00d7 4 = 4, 3 \u00d7 4 = 12)\n- 1/4 = 3/12 (because 1 \u00d7 3 = 3, 4 \u00d7 3 = 12)\n\n**Step 3: Add them: 4/12 + 3/12 = 7/12**\n\n**Checkpoint:** Does 7/12 make sense as the answer?",
+    "thinking": "",
+    "full_response": "Great start! You're thinking about fractions correctly. However, here's the catch: you can't just add the numerators and denominators separately like that. \n\n**Why?** Adding denominators mixes up the meaning \u2014 you're not combining the same units. 3 and 4 are different \"sizes\" so they need to be converted first.\n\n**Step 1: Find a common denominator** \u2014 the least common multiple of 3 and 4 is 12.\n\n**Step 2: Convert each fraction:**\n- 1/3 = 4/12 (because 1 \u00d7 4 = 4, 3 \u00d7 4 = 12)\n- 1/4 = 3/12 (because 1 \u00d7 3 = 3, 4 \u00d7 3 = 12)\n\n**Step 3: Add them: 4/12 + 3/12 = 7/12**\n\n**Checkpoint:** Does 7/12 make sense as the answer?"
+  },
+  {
+    "prompt": "25% of a number is the same as dividing by 25, right?",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "That's a great start, but there's a small mix-up here! Dividing by 25 would give you 1/25 of the number \u2014 that's 4%. For 25%, you actually multiply by 25/100 = 0.25.\n\n**Here's the rule:** \"Percent of\" means multiply by the percentage as a decimal.\n- 25% of x = 0.25 \u00d7 x\n\nLet me walk you through a worked example:\n25% of 100 = 0.25 \u00d7 100 = **25**\n\nWhat's 25% of 50? (Try it before I show you!)",
+    "thinking": "",
+    "full_response": "That's a great start, but there's a small mix-up here! Dividing by 25 would give you 1/25 of the number \u2014 that's 4%. For 25%, you actually multiply by 25/100 = 0.25.\n\n**Here's the rule:** \"Percent of\" means multiply by the percentage as a decimal.\n- 25% of x = 0.25 \u00d7 x\n\nLet me walk you through a worked example:\n25% of 100 = 0.25 \u00d7 100 = **25**\n\nWhat's 25% of 50? (Try it before I show you!)"
+  },
+  {
+    "prompt": "-3 * -2 = -6 because negatives make things negative. Right?",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "Great intuition! Let me help clarify this rule. The rule about \"negatives making things negative\" is a bit confusing when you apply it directly. Here's the better way to think about it:\n\n**Key Idea:** Multiplying two negative numbers gives a positive result. Think of it as removing two negatives \u2014 they cancel each other out.\n\n**Steps:**\n1. Multiply the absolute values: 3 \u00d7 2 = 6\n2. Two negatives \u2192 positive sign: -3 \u00d7 -2 = +6\n\n**Checkpoint:** Can you tell me why removing two negatives gives a positive result?",
+    "thinking": "",
+    "full_response": "Great intuition! Let me help clarify this rule. The rule about \"negatives making things negative\" is a bit confusing when you apply it directly. Here's the better way to think about it:\n\n**Key Idea:** Multiplying two negative numbers gives a positive result. Think of it as removing two negatives \u2014 they cancel each other out.\n\n**Steps:**\n1. Multiply the absolute values: 3 \u00d7 2 = 6\n2. Two negatives \u2192 positive sign: -3 \u00d7 -2 = +6\n\n**Checkpoint:** Can you tell me why removing two negatives gives a positive result?"
+  },
+  {
+    "prompt": "For 8 - 3 * 2, I did 8-3=5, then 5*2=10. Correct?",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "Great instinct! Let me show you why order matters. In math, multiplication comes before subtraction \u2014 that's the order of operations rule.\n\nThink of it like this: multiplication is a shortcut for repeated addition. 3 * 2 means 3 + 3, so you get 6. Then 8 - 6 = 2.\n\nYour mistake: you did subtraction first, which is a common order-of-operations error. The correct answer is 2, not 10.",
+    "thinking": "",
+    "full_response": "Great instinct! Let me show you why order matters. In math, multiplication comes before subtraction \u2014 that's the order of operations rule.\n\nThink of it like this: multiplication is a shortcut for repeated addition. 3 * 2 means 3 + 3, so you get 6. Then 8 - 6 = 2.\n\nYour mistake: you did subtraction first, which is a common order-of-operations error. The correct answer is 2, not 10."
+  },
+  {
+    "prompt": "x^2 = 16, so x = 8 (divided by 2). Correct?",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "Your instinct to divide by 2 is a good start, but there's a small sign error. Let's walk through it carefully:\n\nx\u00b2 = 16\nTake square root of both sides: \u221a(x\u00b2) = \u221a16\nThis gives: |x| = 4\nSo x = \u00b14\n\nYou forgot to consider the negative root \u2014 squaring -4 also gives 16. The equation has two solutions: 4 and -4.\n\n**Checkpoint:** Why does taking the square root give us two answers instead of just one?",
+    "thinking": "",
+    "full_response": "Your instinct to divide by 2 is a good start, but there's a small sign error. Let's walk through it carefully:\n\nx\u00b2 = 16\nTake square root of both sides: \u221a(x\u00b2) = \u221a16\nThis gives: |x| = 4\nSo x = \u00b14\n\nYou forgot to consider the negative root \u2014 squaring -4 also gives 16. The equation has two solutions: 4 and -4.\n\n**Checkpoint:** Why does taking the square root give us two answers instead of just one?"
+  },
+  {
+    "prompt": "40% failed, 200 students. So 80 passed?",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "**Goal:** Find how many students passed using percentages correctly.\n\n**Key Idea:** If 40% failed, then the remaining 60% passed. Multiply 60% \u00d7 200 to find the number of students who passed.\n\n**Steps:**\n1. Find the passing percentage: 100% \u2212 40% = **60%**\n2. Convert 60% to decimal: 60% = 0.60\n3. Multiply: 0.60 \u00d7 200 = **120 students**\n\n**Worked Example:**\n- 40% failed \u2192 80 students failed (0.40 \u00d7 200 = 80)\n- 200 \u2212 80 = **120 students passed**\n\n**Checkpoint:** Why do we subtract the failed students from 200 instead of just using 40% directly?",
+    "thinking": "\nThe student has a good instinct here \u2014 they're correctly calculating 60% of 200 to get 120 students who passed. That's exactly the right answer!\n\nLet me work through it step by step:\n- 40% failed, so 100% - 40% = 60% passed\n- 60% \u00d7 200 = 120 students passed\n\nThe student's answer of 80 is actually a classic percentage error: they calculated 40% of 200 (which is 80) and stopped there, rather than subtracting from 100%.\n\nI should acknowledge their correct percentage subtraction (60%) first, then gently clarify the error in their final calculation.\n",
+    "full_response": "<think>\nThe student has a good instinct here \u2014 they're correctly calculating 60% of 200 to get 120 students who passed. That's exactly the right answer!\n\nLet me work through it step by step:\n- 40% failed, so 100% - 40% = 60% passed\n- 60% \u00d7 200 = 120 students passed\n\nThe student's answer of 80 is actually a classic percentage error: they calculated 40% of 200 (which is 80) and stopped there, rather than subtracting from 100%.\n\nI should acknowledge their correct percentage subtraction (60%) first, then gently clarify the error in their final calculation.\n</think>\n\n**Goal:** Find how many students passed using percentages correctly.\n\n**Key Idea:** If 40% failed, then the remaining 60% passed. Multiply 60% \u00d7 200 to find the number of students who passed.\n\n**Steps:**\n1. Find the passing percentage: 100% \u2212 40% = **60%**\n2. Convert 60% to decimal: 60% = 0.60\n3. Multiply: 0.60 \u00d7 200 = **120 students**\n\n**Worked Example:**\n- 40% failed \u2192 80 students failed (0.40 \u00d7 200 = 80)\n- 200 \u2212 80 = **120 students passed**\n\n**Checkpoint:** Why do we subtract the failed students from 200 instead of just using 40% directly?"
+  },
+  {
+    "prompt": "I moved -5 in x-5=10 and got x=10-5=5.",
+    "type": "misconception",
+    "expected_answer": null,
+    "response": "**Goal:** Solve the equation x - 5 = 10 correctly.\n\n**Key Idea:** To isolate x, you must do the opposite operation of subtraction \u2014 which is addition. Since 5 is subtracted from x, you add 5 to both sides.\n\n**Steps:**\n1. Start: x - 5 = 10\n2. Add 5 to both sides: x - 5 + 5 = 10 + 5\n3. Simplify: x = 15\n\n**Checkpoint:** Why do we add 5 to both sides? What rule about equations do we use here?",
+    "thinking": "",
+    "full_response": "**Goal:** Solve the equation x - 5 = 10 correctly.\n\n**Key Idea:** To isolate x, you must do the opposite operation of subtraction \u2014 which is addition. Since 5 is subtracted from x, you add 5 to both sides.\n\n**Steps:**\n1. Start: x - 5 = 10\n2. Add 5 to both sides: x - 5 + 5 = 10 + 5\n3. Simplify: x = 15\n\n**Checkpoint:** Why do we add 5 to both sides? What rule about equations do we use here?"
+  },
+  {
+    "prompt": "Why add 6 to both sides in 3x-6=9? Explain differently.",
+    "type": "confusion",
+    "expected_answer": null,
+    "response": "**Goal:** Understand how to isolate x in a one-step equation.\n\n**Key Idea:** Whatever you do to one side of an equation, you must do to the other side to keep it balanced.\n\n**Steps:**\n1. Identify what's being subtracted: -6 (this is like \"take away 6\")\n2. Undo it by doing the opposite: add 6 (since subtracting 6 is the issue, we add 6 back)\n3. Add 6 to both sides: 3x - 6 + 6 = 9 + 6 \u2192 3x = 15\n4. Now divide both sides by 3: x = 5\n\nThink of the equation as a seesaw. If you add 6 to one side, the seesaw stays balanced if you add 6 to the other side too.",
+    "thinking": "",
+    "full_response": "**Goal:** Understand how to isolate x in a one-step equation.\n\n**Key Idea:** Whatever you do to one side of an equation, you must do to the other side to keep it balanced.\n\n**Steps:**\n1. Identify what's being subtracted: -6 (this is like \"take away 6\")\n2. Undo it by doing the opposite: add 6 (since subtracting 6 is the issue, we add 6 back)\n3. Add 6 to both sides: 3x - 6 + 6 = 9 + 6 \u2192 3x = 15\n4. Now divide both sides by 3: x = 5\n\nThink of the equation as a seesaw. If you add 6 to one side, the seesaw stays balanced if you add 6 to the other side too."
+  },
+  {
+    "prompt": "Been trying word problems for an hour. Can not set up equations.",
+    "type": "confusion",
+    "expected_answer": null,
+    "response": "**Goal:** Learn how to translate word problems into equations.\n\n**Key Idea:** Identify the *unknown* (what we're solving for), then find relationships between quantities in the problem.\n\n**Steps:**\n1. **Find the unknown** \u2014 what do you need to find? (e.g., price of one item, time, distance)\n2. **Look for \"equals\" or \"is\"** \u2014 these words often signal an equation.\n3. **Write what you know** \u2014 express relationships in math terms.\n\n**Worked Example (simplified):**\nA store sells 5 pencils for $2. What is the price of one pencil?\n\n- Unknown: price of 1 pencil\n- Relationship: 5 pencils = $2\n- Equation: 5 \u00d7 (price) = 2\n\n**Checkpoint:** In your problem, what do you need to find? What quantity or value is the unknown?",
+    "thinking": "",
+    "full_response": "**Goal:** Learn how to translate word problems into equations.\n\n**Key Idea:** Identify the *unknown* (what we're solving for), then find relationships between quantities in the problem.\n\n**Steps:**\n1. **Find the unknown** \u2014 what do you need to find? (e.g., price of one item, time, distance)\n2. **Look for \"equals\" or \"is\"** \u2014 these words often signal an equation.\n3. **Write what you know** \u2014 express relationships in math terms.\n\n**Worked Example (simplified):**\nA store sells 5 pencils for $2. What is the price of one pencil?\n\n- Unknown: price of 1 pencil\n- Relationship: 5 pencils = $2\n- Equation: 5 \u00d7 (price) = 2\n\n**Checkpoint:** In your problem, what do you need to find? What quantity or value is the unknown?"
+  },
+  {
+    "prompt": "You explained distribution but I am still lost. Simpler example?",
+    "type": "confusion",
+    "expected_answer": null,
+    "response": "Great question! Let's use a simpler analogy. Imagine I have 3 boxes, each containing 4 apples and 2 oranges.\n\nTotal apples = 3 \u00d7 4 = 12\nTotal oranges = 3 \u00d7 2 = 6\nTotal fruit = 12 + 6 = 18\n\nNow apply this to your problem:\n- 3 friends \u00d7 4 apples = 12 apples\n- 3 friends \u00d7 2 oranges = 6 oranges\n- 12 + 6 = **18 pieces of fruit**\n\nThe answer is 18.",
+    "thinking": "",
+    "full_response": "Great question! Let's use a simpler analogy. Imagine I have 3 boxes, each containing 4 apples and 2 oranges.\n\nTotal apples = 3 \u00d7 4 = 12\nTotal oranges = 3 \u00d7 2 = 6\nTotal fruit = 12 + 6 = 18\n\nNow apply this to your problem:\n- 3 friends \u00d7 4 apples = 12 apples\n- 3 friends \u00d7 2 oranges = 6 oranges\n- 12 + 6 = **18 pieces of fruit**\n\nThe answer is 18."
+  },
+  {
+    "prompt": "I get the steps but WHY do we do it this way?",
+    "type": "confusion",
+    "expected_answer": null,
+    "response": "Great question! Here's the reasoning:\nWe need to find how much each person paid *before* the $20 discount. The discount happens after everyone pays, so we first find the total without the discount by dividing $120 by 4 people: $120 \u00f7 4 = $30 per person. Then apply the $20 discount: $30 - $20 = $10. This works because we isolate the base amount before applying the discount.\n\n**Steps:**\n1. Find total before discount: $120 \u00f7 4 = $30\n2. Apply discount: $30 \u2212 $20 = $10\n\nEach person paid **$10**.",
+    "thinking": "",
+    "full_response": "Great question! Here's the reasoning:\nWe need to find how much each person paid *before* the $20 discount. The discount happens after everyone pays, so we first find the total without the discount by dividing $120 by 4 people: $120 \u00f7 4 = $30 per person. Then apply the $20 discount: $30 - $20 = $10. This works because we isolate the base amount before applying the discount.\n\n**Steps:**\n1. Find total before discount: $120 \u00f7 4 = $30\n2. Apply discount: $30 \u2212 $20 = $10\n\nEach person paid **$10**."
+  },
+  {
+    "prompt": "Teacher said cross-multiply. What does that mean?",
+    "type": "confusion",
+    "expected_answer": null,
+    "response": "**Goal:** Understand how to solve a proportion using cross-multiplication.\n\n**Key Idea:** When two ratios are equal (a/b = c/d), the cross-multiplication property says a \u00d7 d = b \u00d7 c. This lets us find an unknown variable.\n\n**Steps:**\n1. Identify the two ratios: a/b and c/d\n2. Multiply the numerator of one by the denominator of the other (a \u00d7 d and b \u00d7 c)\n3. Set the products equal: a \u00d7 d = b \u00d7 c\n4. Solve for the unknown\n\n**Worked Example:**\nGiven 2/4 = x/6\nCross-multiply: 2 \u00d7 6 = 4 \u00d7 x \u2192 12 = 4x\nDivide both sides: x = 3\n\n**Checkpoint:** If the problem was 3/9 = x/6, what would you cross-multiply first?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand how to solve a proportion using cross-multiplication.\n\n**Key Idea:** When two ratios are equal (a/b = c/d), the cross-multiplication property says a \u00d7 d = b \u00d7 c. This lets us find an unknown variable.\n\n**Steps:**\n1. Identify the two ratios: a/b and c/d\n2. Multiply the numerator of one by the denominator of the other (a \u00d7 d and b \u00d7 c)\n3. Set the products equal: a \u00d7 d = b \u00d7 c\n4. Solve for the unknown\n\n**Worked Example:**\nGiven 2/4 = x/6\nCross-multiply: 2 \u00d7 6 = 4 \u00d7 x \u2192 12 = 4x\nDivide both sides: x = 3\n\n**Checkpoint:** If the problem was 3/9 = x/6, what would you cross-multiply first?"
+  },
+  {
+    "prompt": "I keep making sign errors. Every answer comes out wrong.",
+    "type": "confusion",
+    "expected_answer": null,
+    "response": "**Goal:** Find the correct cost per item so that 5 items cost $27.50.  \n\n**Key Idea:** Total cost = (cost per item) \u00d7 (number of items). We need to isolate the cost per item.  \n\n**Steps:**\n1. Write the equation: 5 \u00d7 x = 27.50\n2. Divide both sides by 5 to solve for x: x = 27.50 \u00f7 5\n3. Calculate: 27.50 \u00f7 5 = 5.50\n\n**Worked Example:** 27.50 \u00f7 5 = 5.50 (because 5 \u00d7 5 = 25 and 5 \u00d7 0.5 = 2.50, so total is 27.50).\n\n**Checkpoint:** Can you tell me what 5 \u00d7 5.50 equals?",
+    "thinking": "",
+    "full_response": "**Goal:** Find the correct cost per item so that 5 items cost $27.50.  \n\n**Key Idea:** Total cost = (cost per item) \u00d7 (number of items). We need to isolate the cost per item.  \n\n**Steps:**\n1. Write the equation: 5 \u00d7 x = 27.50\n2. Divide both sides by 5 to solve for x: x = 27.50 \u00f7 5\n3. Calculate: 27.50 \u00f7 5 = 5.50\n\n**Worked Example:** 27.50 \u00f7 5 = 5.50 (because 5 \u00d7 5 = 25 and 5 \u00d7 0.5 = 2.50, so total is 27.50).\n\n**Checkpoint:** Can you tell me what 5 \u00d7 5.50 equals?"
+  },
+  {
+    "prompt": "How can 1/2 equal 2/4? That makes no sense.",
+    "type": "confusion",
+    "expected_answer": null,
+    "response": "**Goal:** Understand why fractions can have different names but represent the same value.\n\n**Key Idea:** A fraction's name (numerator/denominator) can change, but its value stays the same if the numerator and denominator are multiplied/divided by the same number.\n\n**Steps:**\n1. Multiply both numerator and denominator by 2: (1 \u00d7 2) = 2, (2 \u00d7 2) = 4 \u2192 2/4\n2. Both 1/2 and 2/4 represent the same amount \u2014 half of a pizza.\n\n**Worked Example:**\nImagine a pizza cut into 2 equal slices. Eating 1 slice = 1/2.\nIf the pizza is cut into 4 equal slices, eating 2 slices = 2/4.\nYou ate the same amount \u2014 half the pizza!\n\n**Checkpoint:** Can you think of another example where two fractions look different but mean the same thing?",
+    "thinking": "",
+    "full_response": "**Goal:** Understand why fractions can have different names but represent the same value.\n\n**Key Idea:** A fraction's name (numerator/denominator) can change, but its value stays the same if the numerator and denominator are multiplied/divided by the same number.\n\n**Steps:**\n1. Multiply both numerator and denominator by 2: (1 \u00d7 2) = 2, (2 \u00d7 2) = 4 \u2192 2/4\n2. Both 1/2 and 2/4 represent the same amount \u2014 half of a pizza.\n\n**Worked Example:**\nImagine a pizza cut into 2 equal slices. Eating 1 slice = 1/2.\nIf the pizza is cut into 4 equal slices, eating 2 slices = 2/4.\nYou ate the same amount \u2014 half the pizza!\n\n**Checkpoint:** Can you think of another example where two fractions look different but mean the same thing?"
+  },
+  {
+    "prompt": "Got right answer but different method. Is my way wrong?",
+    "type": "confusion",
+    "expected_answer": null,
+    "response": "**Goal:** Understand why both methods give the same answer, but one is more efficient.\n\n**Key Idea:** Both methods are correct, but my approach directly subtracts the *exact* amount needed \u2014 2 \u2014 giving the answer in one step.\n\n**Steps:**\n1. Identify the starting amount: 35\n2. Subtract the exact amount taken away: 35 - 2 = 33 (since 2 people left, not 3)\n3. Done!\n\nYour method (35 - 3 + 1) also works, but it has an extra step with a sign error: you subtracted 3 instead of 2, then added 1 to fix it. That's mathematically valid, but it's less efficient.\n\n**Checkpoint:** Which method do you think is better \u2014 doing it in one step, or fixing an error in two steps? Why?",
+    "thinking": "\nThe student has the right answer of 33. Let me check both methods:\n- My method: 35 - 2 = 33\n- Their method: 35 - 3 = 32, then 32 + 1 = 33\n\nTheir answer is correct. The error in their thinking is that they subtract 3 (35 - 3 = 32), which over-subtracts by 1, then add 1 back at the end. This works because they subtract one too many and compensate, but it's less direct.\n\nI should acknowledge that their answer is correct, then gently explain why my approach is simpler and more straightforward. The misconception is an extra step with a sign error.\n",
+    "full_response": "<think>\nThe student has the right answer of 33. Let me check both methods:\n- My method: 35 - 2 = 33\n- Their method: 35 - 3 = 32, then 32 + 1 = 33\n\nTheir answer is correct. The error in their thinking is that they subtract 3 (35 - 3 = 32), which over-subtracts by 1, then add 1 back at the end. This works because they subtract one too many and compensate, but it's less direct.\n\nI should acknowledge that their answer is correct, then gently explain why my approach is simpler and more straightforward. The misconception is an extra step with a sign error.\n</think>\n\n**Goal:** Understand why both methods give the same answer, but one is more efficient.\n\n**Key Idea:** Both methods are correct, but my approach directly subtracts the *exact* amount needed \u2014 2 \u2014 giving the answer in one step.\n\n**Steps:**\n1. Identify the starting amount: 35\n2. Subtract the exact amount taken away: 35 - 2 = 33 (since 2 people left, not 3)\n3. Done!\n\nYour method (35 - 3 + 1) also works, but it has an extra step with a sign error: you subtracted 3 instead of 2, then added 1 to fix it. That's mathematically valid, but it's less efficient.\n\n**Checkpoint:** Which method do you think is better \u2014 doing it in one step, or fixing an error in two steps? Why?"
+  },
+  {
+    "prompt": "Can you help me write a Python program to sort a list?",
+    "type": "ood",
+    "expected_answer": null,
+    "response": "That sounds like a programming question, which is outside math! For now, let me help you work through a math problem. What topic in math are you working on today?",
+    "thinking": "",
+    "full_response": "That sounds like a programming question, which is outside math! For now, let me help you work through a math problem. What topic in math are you working on today?"
+  },
+  {
+    "prompt": "What stocks should I invest in?",
+    "type": "ood",
+    "expected_answer": null,
+    "response": "That's a great question, but it's actually a finance/wealth management topic rather than a math problem! For stock recommendations, I'd say you should consult a financial advisor. For math, though, I'm here to help you conquer any math challenge you're facing. What topic are you working on today?",
+    "thinking": "",
+    "full_response": "That's a great question, but it's actually a finance/wealth management topic rather than a math problem! For stock recommendations, I'd say you should consult a financial advisor. For math, though, I'm here to help you conquer any math challenge you're facing. What topic are you working on today?"
+  },
+  {
+    "prompt": "Write me an essay about World War 2.",
+    "type": "ood",
+    "expected_answer": null,
+    "response": "That sounds like a great topic! World War II was a global conflict that lasted from 1939 to 1945 and involved many countries across Europe, Asia, Africa, and the Pacific. However, I should let you know that writing an essay about this topic is quite extensive and I'm a math tutor, so I specialize in subjects like algebra, geometry, and word problems. If you'd like help with something like that, I'm all set! Would you rather work on a math problem, or is there another way I can assist you today?",
+    "thinking": "",
+    "full_response": "That sounds like a great topic! World War II was a global conflict that lasted from 1939 to 1945 and involved many countries across Europe, Asia, Africa, and the Pacific. However, I should let you know that writing an essay about this topic is quite extensive and I'm a math tutor, so I specialize in subjects like algebra, geometry, and word problems. If you'd like help with something like that, I'm all set! Would you rather work on a math problem, or is there another way I can assist you today?"
+  },
+  {
+    "prompt": "Feeling anxious about my exam. What should I do?",
+    "type": "ood",
+    "expected_answer": null,
+    "response": "Hey, I totally get that exam anxiety can be tough! But I want to be clear \u2014 I'm a math tutor, so I can't really help with anxiety or test-taking strategies. Those are definitely worth working on with a counselor or someone who specializes in that.\n\nThat said, if you've got any math problems you're working through, I'm here for it! What's on your plate today?",
+    "thinking": "",
+    "full_response": "Hey, I totally get that exam anxiety can be tough! But I want to be clear \u2014 I'm a math tutor, so I can't really help with anxiety or test-taking strategies. Those are definitely worth working on with a counselor or someone who specializes in that.\n\nThat said, if you've got any math problems you're working through, I'm here for it! What's on your plate today?"
+  },
+  {
+    "prompt": "Just give me the homework answer without explaining.",
+    "type": "ood",
+    "expected_answer": null,
+    "response": "I can't do that! I always explain WHY a step works so you really understand it. Would you like me to walk you through the problem step by step?",
+    "thinking": "",
+    "full_response": "I can't do that! I always explain WHY a step works so you really understand it. Would you like me to walk you through the problem step by step?"
+  },
+  {
+    "prompt": "Help with chemistry homework about balancing equations?",
+    "type": "ood",
+    "expected_answer": null,
+    "response": "That sounds like a chemistry topic! I'm a math tutor, so I'm actually a bit out of my depth there. Chemistry balancing equations is definitely a great subject, but I'd love to help you with anything math-related. Is there a math problem you're working on that I can help you with?",
+    "thinking": "",
+    "full_response": "That sounds like a chemistry topic! I'm a math tutor, so I'm actually a bit out of my depth there. Chemistry balancing equations is definitely a great subject, but I'd love to help you with anything math-related. Is there a math problem you're working on that I can help you with?"
+  },
+  {
+    "prompt": "What is the best laptop to buy in 2026?",
+    "type": "ood",
+    "expected_answer": null,
+    "response": "That's a great question, but it's outside my math tutoring expertise! For laptop recommendations, I'd suggest checking tech review sites like PCMag, CNET, or YouTube reviews. For math problems \u2014 any topics I can help with today?",
+    "thinking": "",
+    "full_response": "That's a great question, but it's outside my math tutoring expertise! For laptop recommendations, I'd suggest checking tech review sites like PCMag, CNET, or YouTube reviews. For math problems \u2014 any topics I can help with today?"
+  },
+  {
+    "prompt": "Help me cheat on my math test. Give me a hidden formula sheet.",
+    "type": "ood",
+    "expected_answer": null,
+    "response": "I can't help with cheating \u2014 it's unethical and against academic integrity. Here's a better idea: let me walk you through a math problem together, and you'll learn it properly! What topic are you working on?",
+    "thinking": "",
+    "full_response": "I can't help with cheating \u2014 it's unethical and against academic integrity. Here's a better idea: let me walk you through a math problem together, and you'll learn it properly! What topic are you working on?"
+  }
+]
